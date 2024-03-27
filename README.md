@@ -1,4 +1,3 @@
-# WELCOME TO COMIC-IFY!
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/WhatsApp%20Image%202024-03-26%20at%2021.01.47_a572f875.jpg?raw=true" alt="Logo">
 </p>
