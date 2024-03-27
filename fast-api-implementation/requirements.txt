@@ -1,1 +1,8 @@
-
+fastapi
+uvicorn
+openai
+langchain
+langchain-google-genai
+pypdf
+pillow 
+pydantic
