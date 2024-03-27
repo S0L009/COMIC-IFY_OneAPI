@@ -44,3 +44,21 @@ Example: If the emphasis is on Operating Systems, users can prompt for a detaile
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/Comicify-PPT.png?raw=true" alt="workflow">
 </p>
+
+## RUNNING FAST API
+
+To run the FastAPI app locally
+
+Step1: install the fastapi directory from the repo, and navigate the termial to it
+
+
+
+step2: pip install requirements.txt file
+```bash
+pip install -r requirements.txt
+```
+
+step3: run the uvicorn ASGI server to get the endpoints functional
+```bash
+uvicorn main:app --reload
+```
