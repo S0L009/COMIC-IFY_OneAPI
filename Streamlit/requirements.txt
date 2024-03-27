@@ -1,4 +1,4 @@
-streamlit==1.32.2
-opencv-python==4.8.1.78
-Pillow==10.1.0
-PyPDF2==3.0.1
+streamlit
+opencv-python
+Pillow
+PyPDF2
