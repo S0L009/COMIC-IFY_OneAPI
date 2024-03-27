@@ -21,7 +21,7 @@ def process_file(file, theme):
 
 
     #Surya's part (llm output to images)
-    img1 = cv2.imread(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\collage0.jpg")
+    img1 = cv2.imread(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\collage4.jpg")
     img2 = cv2.imread(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\collage4.jpg")
     img = [img1,img2]  # THESE R THE OUTPUTS
 
