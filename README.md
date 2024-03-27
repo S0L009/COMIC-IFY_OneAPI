@@ -62,3 +62,41 @@ step3: run the uvicorn ASGI server to get the endpoints functional
 ```bash
 uvicorn main:app --reload
 ```
+
+
+## Tech Stack
+
+*Languages and Frameworks*
+
+| ![Python](https://img.shields.io/badge/Python-3.12-blue) | ![FASTAPI](https://img.shields.io/badge/FastAPI-0.83.2-brightgreen) | ![Streamlit](https://img.shields.io/badge/Streamlit-1.17.1-brightgreen) |
+|:---:|:---:|:---:|
+
+---
+
+*Libraries and Tools*
+
+| ![Hugging Face](https://img.shields.io/badge/Hugging_Face-v0.6.13-blue) | ![git](https://img.shields.io/badge/git-2.44.0-orange) | ![GitHub](https://img.shields.io/badge/github-latest-gray) |
+|:---:|:---:|:---:|
+
+---
+
+*Functionalities*
+
+| ![Image Manipulation](https://img.shields.io/badge/Image_Manipulation-experimental-orange) | ![Langchain](https://img.shields.io/badge/Langchain-experimental-orange) | |
+|:---:|:---:|:---:|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
