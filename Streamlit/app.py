@@ -1,9 +1,9 @@
 import streamlit as st
 import cv2
-# import numpy as np
 from PIL import Image
 from PyPDF2 import PdfReader
 
+#PATHS NEED TO CHANGED 🛑
 
 def read_n_return_pages(pdf_path):
   reader = PdfReader(pdf_path) 
