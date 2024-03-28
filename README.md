@@ -64,6 +64,35 @@ uvicorn main:app --reload
 ```
 
 
+
+## Outputs
+
+### Avengers Themed
+<p align="center">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/aven2.jpg" alt="Avengers">
+</p>
+
+### Pokemon Themed
+<p align="center">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/poki%20poki.jpg" alt="Pokemon">
+</p>
+
+### Mahabharata Themed
+<p align="center">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/MB.jpge" alt="Mahabharata">
+</p>
+
+### Ramayana Themed
+<p align="center">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/ram.jpg" alt="Ramayana">
+</p>
+
+### Harry Potter Themed
+<p align="center">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/HP.jpg " alt="Harry Potter">
+</p>
+
+
 ## Tech Stack
 
 *Languages and Frameworks*
