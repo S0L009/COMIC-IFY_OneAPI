@@ -29,7 +29,7 @@ llm = GoogleGenerativeAI(model="gemini-pro", google_api_key=GEMINI_API)
 # chain 1 - for generating prompt to inference an image
 img_gen_chain = inference_gemini_chain(llm, """
 You are a world class prompt writer, your task is to write a prompt for generating image explaining the features in a very clear and specific way in your own in a creative way for a given context delimited by triple back ticks. 
-When crafting your prompts, it's essential to be as descriptive and specific as possible. Provide details about the subject, setting, style, composition, and any other relevant aspects you want the AI to consider.
+When crafting your prompts, it's essential to be as descriptive and specific as possible. Provide details about the subject, setting, style, composition, and any other relevant aspects you want the AI to consider. And make sure that the prompt generated is safe for infer
 
 context: Hippopotamus
 generated-prompt: A massive hippopotamus, A large, semi-aquatic mammal with a barrel-shaped body, short legs, and a huge mouth, Partially submerged in a calm river or pond, surrounded by lush vegetation and trees, Realistic and highly detailed, with a focus on capturing the texture of the hippo's thick, wrinkled skin and the reflections in the water, Include water droplets or splashes around the hippo, and perhaps a few small fish or aquatic plants in the water.
