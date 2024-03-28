@@ -82,7 +82,7 @@ uvicorn main:app --reload
 
 ### Avengers Themed
 <p align="center">
-  <img src="https://github.com/SrikarVamsi/dump/blob/main/aven2.jpg" alt="Avengers">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/aven2.png" alt="Avengers">
 </p>
 
 ### Pokemon Themed
