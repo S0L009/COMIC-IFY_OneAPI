@@ -79,7 +79,7 @@ uvicorn main:app --reload
 
 ### Mahabharata Themed
 <p align="center">
-  <img src="https://github.com/SrikarVamsi/dump/blob/main/MB.jpge" alt="Mahabharata">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/MB.jpg" alt="Mahabharata">
 </p>
 
 ### Ramayana Themed
