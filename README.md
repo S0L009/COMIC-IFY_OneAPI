@@ -71,6 +71,8 @@ uvicorn main:app --reload
 | 3 | Intel® DevCloud | DevCloud offers a valuable environment for our project |
 
 
+## Dataset
+We have uploaded the dataset used to train our model at: https://drive.google.com/drive/folders/1u6DDqnxUgWTlgHAeIW7bdt0CnYkCX6fT
 
 
 ## Outputs
