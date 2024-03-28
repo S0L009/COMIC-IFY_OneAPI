@@ -61,18 +61,31 @@ generated-output:
 
 # final function for generating images ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 def final_wrapper_for_gen_image(chain, context_of_image): # returns the jb64 format of image being generated
-  img_prompt = invoke_chains_and_inference_output(chain, context_to_generate = context_of_image)
-  inferenced_jb64_output = inference_image_jsonb64(img_prompt, client, model='dall-e-3')
-  # decode_and_save_image(inferenced_jb64_output, image_name_2_save)
+  while True:
+    try:
+      img_prompt = invoke_chains_and_inference_output(chain, context_to_generate = context_of_image)
+      inferenced_jb64_output = inference_image_jsonb64(img_prompt, client, model='dall-e-3')
+      # decode_and_save_image(inferenced_jb64_output, image_name_2_save)
+    except:
+      print('regenerating img')
+    else:
+      break
   return inferenced_jb64_output
 
 
 # final function for inferencing interactive text-chunks ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 def final_wrapper_for_chunk_fantasization(chain, theme, word_limit, chunk):
-  return invoke_chains_and_inference_output(chain, inspiring_theme= theme ,
+  while True:
+    try:
+      outpt = invoke_chains_and_inference_output(chain, inspiring_theme= theme ,
       word_count= word_limit,
       text_chunk= chunk)
-
+    except:
+      print('error in text gen')
+    else:
+      break
+  
+  return outpt
 
 if __name__ == "__main__":
   decode_and_save_image(final_wrapper_for_gen_image(img_gen_chain, "Pokemon - try out different pokemons every single time"), 'mr_bean')
