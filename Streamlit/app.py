@@ -2,8 +2,9 @@ import streamlit as st
 import cv2
 from PIL import Image
 from PyPDF2 import PdfReader
-
-#PATHS NEED TO CHANGED 🛑
+from api_request_wrapper import request_wrapper, chunk_gen, img_gen
+from image_gen_helper import decode_and_save_image
+from generate import generate_main
 
 def read_n_return_pages(pdf_path):
   reader = PdfReader(pdf_path) 
@@ -11,27 +12,46 @@ def read_n_return_pages(pdf_path):
 
 def process_file(file, theme):
 
-    # Amrith's part (input to llm)
+    #Extracting the content from the pdf
     extracted_text = read_n_return_pages(file)
+
+    text = []       #Output text from the model is collected in this
+    img_paths = []  #Output paths of the image are collected in this
+    file_name = 0
+
+    for chunk in extracted_text:
+
+        #Inputs are fed to the model
+
+        #fantasized txt
+        try:
+            text.append( request_wrapper(chunk_gen, {"theme": theme, "word_limit": "80", "chunk_content": chunk} ) ['generated-chunk'])
+
+        #inferenced img
+            img_paths.append( decode_and_save_image(json_content = request_wrapper(img_gen, {"theme": theme} )['json-b64-format-of-image-generated'], output_filename='img'+str(file_name)))
+        except:
+            pass
+
+        file_name += 1
+
     
-    # for chunk in extracted_text:
-    #     #fantasized txt
-    #     #inferenced img
+    final_outputs = []
+    for i in range(0, len(text), 2):
 
-
-
-    #Surya's part (llm output to images)
-    img1 = cv2.imread(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\collage4.jpg")
-    img2 = cv2.imread(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\collage4.jpg")
-    img = [img1,img2]  # THESE R THE OUTPUTS
+        #Images and texts are combined a put together in a template using Image Processing techniques
+        #Per page, 2 images and 2 text paragraphs corresponding to that image
+        final_outputs.append(generate_main(im_path = img_paths[i:i+2], texts = text[i:i+2]))
+                
 
     st.write(f'Boom💥💥💥', unsafe_allow_html=True)
     st.write(f'Happy Learning...', unsafe_allow_html=True)
 
-    for i in range(len(img)):
-        st.image(Image.fromarray(img[i].astype('uint8')), caption=f'Page {i+1}', use_column_width=True)
+    #Each page is displayed here
+    for i in range(len(final_outputs)):
+
+        st.image(Image.fromarray(final_outputs[i].astype('uint8')), caption=f'Page {i+1}', use_column_width=True)
+        
     return
-    #PDF VIEWER???
 
 def homepage():
     st.image(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\comiclogo.png", use_column_width=True)
@@ -48,6 +68,7 @@ def homepage():
     
 
     if uploaded_file is not None:
+        st.write(f'<span style="color:{color}">Processing...</span>', unsafe_allow_html=True)
         process_file(uploaded_file, theme)
     else:
         st.write(f'<span style="color:red">File not Found</span>', unsafe_allow_html=True)
@@ -97,7 +118,6 @@ def About_comicify():
                 """, unsafe_allow_html=True)
     
 def main():
-
     pages = {
         "Home":homepage,
         "About Us": About_us,
@@ -106,8 +126,6 @@ def main():
 
     selected_page = st.sidebar.radio("Where do u want to go nxt?", list(pages.keys()))
     pages[selected_page]()
-
-
 
 if __name__ == "__main__":
     main()
