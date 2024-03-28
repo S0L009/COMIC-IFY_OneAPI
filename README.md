@@ -67,6 +67,11 @@ uvicorn main:app --reload
 
 ## Outputs
 
+### UI Design
+<p align="center">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/UI.png" alt="UI">
+</p>
+
 ### Avengers Themed
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/aven2.jpg" alt="Avengers">
