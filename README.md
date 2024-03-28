@@ -63,6 +63,14 @@ step3: run the uvicorn ASGI server to get the endpoints functional
 uvicorn main:app --reload
 ```
 
+## Intel Tool-Kits Used
+| **Sno** | **Intel Product Used** | **Description** | 
+|---|---|---|
+| 1 | Intel® Distribution for Python® | We are using this toolkit as it provides optimized Python libraries for numerical computing and data manipulation | 
+| 2 | Intel® OpenVINO™ | We are making the process of implementing Q-LoRA faster using OpenVINO | 
+| 3 | Intel® DevCloud | DevCloud offers a valuable environment for our project |
+
+
 
 
 ## Outputs
