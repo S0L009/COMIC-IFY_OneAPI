@@ -68,7 +68,7 @@ def homepage():
     st.title('Select your favourite theme')
 
     
-    theme = st.selectbox('' ,['Avengers','Spiderman','Superman','Ben 10','Doraemon','Pokemon','Ramayana', 'Mahabharatha', 'Harry Potter','WildLife', 'Mr Bean'])
+    theme = st.selectbox('' ,['Avengers','Spiderman','Superman','Doraemon','Pokemon','Ramayana', 'Mahabharatha', 'Harry Potter','WildLife', 'Mr Bean'])
     color = '#23CE6B'
     st.write(f'You selected <span style="color:{color}">{theme}</span>', unsafe_allow_html=True)
 
