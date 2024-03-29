@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 from PIL import Image
 from PyPDF2 import PdfReader
 from api_request_wrapper import request_wrapper, chunk_gen, img_gen
@@ -36,21 +35,31 @@ def process_file(file, theme):
 
     
     final_outputs = []
+
     for i in range(0, len(text), 2):
 
         #Images and texts are combined a put together in a template using Image Processing techniques
         #Per page, 2 images and 2 text paragraphs corresponding to that image
-        final_outputs.append(generate_main(im_path = img_paths[i:i+2], texts = text[i:i+2]))
-                
+        final_outputs.append( Image.fromarray( generate_main(im_path = img_paths[i:i+2], texts = text[i:i+2]) ) )
 
+                
     st.write(f'Boom💥💥💥', unsafe_allow_html=True)
     st.write(f'Happy Learning...', unsafe_allow_html=True)
 
+
     #Each page is displayed here
     for i in range(len(final_outputs)):
-
-        st.image(Image.fromarray(final_outputs[i].astype('uint8')), caption=f'Page {i+1}', use_column_width=True)
         
+        st.image(final_outputs[i], caption=f'Page {i+1}', use_column_width=True)
+        
+    # Images to PDF
+    output_pdf_path = "🔥.pdf"
+    final_outputs[0].save(output_pdf_path, "PDF" ,resolution=100.0, save_all=True, append_images=final_outputs[1:])  
+
+    st.write('Here is ur PDF')
+    with open("🔥.pdf",'rb') as f:
+        data = f.read()
+    st.download_button(label="Download⬇️ it and have fun🎉", data=data, file_name=output_pdf_path, mime="application/pdf")
     return
 
 def homepage():
@@ -59,7 +68,7 @@ def homepage():
     st.title('Select your favourite theme')
 
     
-    theme = st.selectbox('' ,['Avengers','Doraemon','Pokemon','Ramayana', 'Mahabharatha', 'Harry Potter','WildLife', 'Mr Bean'])
+    theme = st.selectbox('' ,['Avengers','Spiderman','Superman','Ben 10','Doraemon','Pokemon','Ramayana', 'Mahabharatha', 'Harry Potter','WildLife', 'Mr Bean'])
     color = '#23CE6B'
     st.write(f'You selected <span style="color:{color}">{theme}</span>', unsafe_allow_html=True)
 
