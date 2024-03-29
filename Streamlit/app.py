@@ -57,7 +57,7 @@ def process_file(file, theme):
     final_outputs[0].save(output_pdf_path, "PDF" ,resolution=100.0, save_all=True, append_images=final_outputs[1:])  
 
     st.write('Here is ur PDF')
-    with open("🔥.pdf",'rb') as f:
+    with open(output_pdf_path,'rb') as f:
         data = f.read()
     st.download_button(label="Download⬇️ it and have fun🎉", data=data, file_name=output_pdf_path, mime="application/pdf")
     return
