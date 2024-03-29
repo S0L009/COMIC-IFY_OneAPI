@@ -66,7 +66,7 @@ step3: run the uvicorn ASGI server to get the endpoints functional
 uvicorn main:app --reload
 ```
 
-step4: Test the api's on Swagger-UI
+step4: Test the apis on Swagger-UI
 <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/FASTAPI-SWAGGER-UI-SS.png" alt="swagger_ui_ss">
 
 ## Intel Tool-Kits Used
