@@ -3,7 +3,7 @@
   <img src="https://github.com/SrikarVamsi/dump/blob/main/WhatsApp%20Image%202024-03-26%20at%2021.01.47_a572f875.jpg?raw=true" alt="Logo">
 </p> -->
 
-<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicify logo.jpg" alt="cropped_logo">
+<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicify logo.png" alt="cropped_logo">
 
 # Transforming Words to Worlds
 <p align="center">
