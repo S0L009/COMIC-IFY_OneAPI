@@ -38,9 +38,7 @@ def process_file(file, theme):
     final_outputs = [Image.open('coverpage.png')]
     final_outputs[0] = final_outputs[0].convert('RGB')
 
-    #this for testing
-    # final_outputs = [Image.open('./Templates/comicify_logo.jpg'),Image.open('./Templates/hyper_Avengers2.png'),Image.open('./Templates/hyper_spiderman0.png'),Image.open('./Templates/hyper_spiderman1.png')]
-
+    
     for i in range(0, len(text), 2):
 
         #Images and texts are combined a put together in a template using Image Processing techniques
