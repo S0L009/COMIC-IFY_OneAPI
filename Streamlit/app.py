@@ -35,10 +35,12 @@ def process_file(file, theme):
         file_name += 1
 
     
-    final_outputs = [Image.open('coverpage.png')]
+    final_outputs = [Image.open('./Templates/coverpage.png')]
     final_outputs[0] = final_outputs[0].convert('RGB')
 
-    
+    #this for testing
+    # final_outputs = [Image.open('./Templates/comicify_logo.jpg'),Image.open('./Templates/hyper_Avengers2.png'),Image.open('./Templates/hyper_spiderman0.png'),Image.open('./Templates/hyper_spiderman1.png')]
+
     for i in range(0, len(text), 2):
 
         #Images and texts are combined a put together in a template using Image Processing techniques
@@ -57,11 +59,11 @@ def process_file(file, theme):
         
     # Images to PDF
     output_pdf_path = "🔥.pdf"
-    final_outputs[0].save(output_pdf_path, "PDF" ,resolution=100.0, save_all=True, append_images=final_outputs[1:])  
-
-    with open(output_pdf_path,'rb') as f:
-        data = f.read()
-    return data, output_pdf_path
+    from io import BytesIO
+    pdf_bts = BytesIO()
+    final_outputs[0].save(pdf_bts, "PDF" ,resolution=100.0, save_all=True, append_images=final_outputs[1:])  
+    pdf_bts.seek(0)
+    return pdf_bts, output_pdf_path
 
 def homepage():
 
@@ -80,7 +82,7 @@ def homepage():
         uploaded_file = st.file_uploader('',type='pdf')   
         
         if st.form_submit_button(label='Process it'):
-            if uploaded_file is not None and not st.session_state.file:
+            if uploaded_file is not None:
                 st.write(f'<span style="color:{color}">Processing...</span>', unsafe_allow_html=True)
                 data, output_pdf_path = process_file(uploaded_file, theme)
 
