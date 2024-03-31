@@ -4,7 +4,6 @@ from PyPDF2 import PdfReader
 from api_request_wrapper import request_wrapper, chunk_gen, img_gen
 from image_gen_helper import decode_and_save_image
 from generate import generate_main
-import time
 
 def read_n_return_pages(pdf_path):
   reader = PdfReader(pdf_path) 
@@ -53,9 +52,7 @@ def process_file(file, theme):
 
 
     #Each page is displayed here
-    for i in range(len(final_outputs)):
-
-        st.image(final_outputs[i], caption=f'Page {i+1}', use_column_width=True)
+    st.session_state.prev = final_outputs[:]
         
     # Images to PDF
     output_pdf_path = "🔥.pdf"
@@ -63,9 +60,19 @@ def process_file(file, theme):
     pdf_bts = BytesIO()
     final_outputs[0].save(pdf_bts, "PDF" ,resolution=100.0, save_all=True, append_images=final_outputs[1:])  
     pdf_bts.seek(0)
-    return pdf_bts, output_pdf_path
+    st.session_state.data, st.session_state.output_pdf_path = pdf_bts, output_pdf_path
+    return True
 
 def homepage():
+
+    if 'prev' not in st.session_state:
+        st.session_state.prev = False
+
+    if 'data' not in st.session_state:
+        st.session_state.data = False
+
+    if 'output_pdf_path' not in st.session_state:
+        st.session_state.output_pdf_path = False
 
     st.image(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\comiclogo.png", use_column_width=True)
     st.markdown('<p style="text-align:center;font-family: cursive, sans-serif;font-size: 20px">Lets make Learning<span style="color:blue;"> Fun, Forever!</span></p>', unsafe_allow_html=True)
@@ -76,21 +83,27 @@ def homepage():
     st.write(f'You selected <span style="color:{color}">{theme}</span>', unsafe_allow_html=True)
 
     st.title('Upload your boring pdf and watch the magic happen!')
-    data = None
+    check = None
     
     with st.form(key='my_form'):
         uploaded_file = st.file_uploader('',type='pdf')   
-        
+
         if st.form_submit_button(label='Process it'):
+
             if uploaded_file is not None:
                 st.write(f'<span style="color:{color}">Processing...</span>', unsafe_allow_html=True)
-                data, output_pdf_path = process_file(uploaded_file, theme)
-
+                check = process_file(uploaded_file, theme)
+            
             else:
                 st.write(f'<span style="color:red">File not Found</span>', unsafe_allow_html=True)
-    if data: 
+
+    if check or st.session_state.data: 
+        
+        for i in range(len(st.session_state.prev)):
+            st.image(st.session_state.prev[i], caption=f'Page {i+1}', use_column_width=True)
+
         st.write('Here is ur PDF')
-        st.download_button(label="Download⬇️ and have fun🎉", data=data, file_name=output_pdf_path, mime="application/pdf")
+        st.download_button(label="Download⬇️ and have fun🎉", data=st.session_state.data, file_name=st.session_state.output_pdf_path, mime="application/pdf")
 
 def About_us():
     st.title('About Us')
