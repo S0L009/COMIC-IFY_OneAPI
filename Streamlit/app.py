@@ -35,7 +35,7 @@ def process_file(file, theme):
         file_name += 1
 
     
-    final_outputs = [Image.open('./Templates/coverpage.png')]
+    final_outputs = [Image.open('coverpage.png')]
     final_outputs[0] = final_outputs[0].convert('RGB')
 
     #this for testing
