@@ -4,6 +4,7 @@ from PyPDF2 import PdfReader
 from api_request_wrapper import request_wrapper, chunk_gen, img_gen
 from image_gen_helper import decode_and_save_image
 from generate import generate_main
+import time
 
 def read_n_return_pages(pdf_path):
   reader = PdfReader(pdf_path) 
@@ -34,7 +35,11 @@ def process_file(file, theme):
         file_name += 1
 
     
-    final_outputs = []
+    final_outputs = [Image.open('./Templates/coverpage.png')]
+    final_outputs[0] = final_outputs[0].convert('RGB')
+
+    #this for testing
+    # final_outputs = [Image.open('./Templates/comicify_logo.jpg'),Image.open('./Templates/hyper_Avengers2.png'),Image.open('./Templates/hyper_spiderman0.png'),Image.open('./Templates/hyper_spiderman1.png')]
 
     for i in range(0, len(text), 2):
 
@@ -49,38 +54,43 @@ def process_file(file, theme):
 
     #Each page is displayed here
     for i in range(len(final_outputs)):
-        
+
         st.image(final_outputs[i], caption=f'Page {i+1}', use_column_width=True)
         
     # Images to PDF
     output_pdf_path = "🔥.pdf"
     final_outputs[0].save(output_pdf_path, "PDF" ,resolution=100.0, save_all=True, append_images=final_outputs[1:])  
 
-    st.write('Here is ur PDF')
     with open(output_pdf_path,'rb') as f:
         data = f.read()
-    st.download_button(label="Download⬇️ it and have fun🎉", data=data, file_name=output_pdf_path, mime="application/pdf")
-    return
+    return data, output_pdf_path
 
 def homepage():
+
     st.image(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\comiclogo.png", use_column_width=True)
     st.markdown('<p style="text-align:center;font-family: cursive, sans-serif;font-size: 20px">Lets make Learning<span style="color:blue;"> Fun, Forever!</span></p>', unsafe_allow_html=True)
     st.title('Select your favourite theme')
-
     
     theme = st.selectbox('' ,['Avengers','Spiderman','Superman','Doraemon','Pokemon','Ramayana', 'Mahabharatha', 'Harry Potter','WildLife', 'Mr Bean'])
     color = '#23CE6B'
     st.write(f'You selected <span style="color:{color}">{theme}</span>', unsafe_allow_html=True)
 
     st.title('Upload your boring pdf and watch the magic happen!')
-    uploaded_file = st.file_uploader('',type='pdf')
+    data = None
     
+    with st.form(key='my_form'):
+        uploaded_file = st.file_uploader('',type='pdf')   
+        
+        if st.form_submit_button(label='Process it'):
+            if uploaded_file is not None and not st.session_state.file:
+                st.write(f'<span style="color:{color}">Processing...</span>', unsafe_allow_html=True)
+                data, output_pdf_path = process_file(uploaded_file, theme)
 
-    if uploaded_file is not None:
-        st.write(f'<span style="color:{color}">Processing...</span>', unsafe_allow_html=True)
-        process_file(uploaded_file, theme)
-    else:
-        st.write(f'<span style="color:red">File not Found</span>', unsafe_allow_html=True)
+            else:
+                st.write(f'<span style="color:red">File not Found</span>', unsafe_allow_html=True)
+    if data: 
+        st.write('Here is ur PDF')
+        st.download_button(label="Download⬇️ and have fun🎉", data=data, file_name=output_pdf_path, mime="application/pdf")
 
 def About_us():
     st.title('About Us')
