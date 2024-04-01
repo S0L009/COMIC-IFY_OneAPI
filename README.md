@@ -65,7 +65,7 @@ Example: If the emphasis is on Operating Systems, users can prompt for a detaile
 </div>
 
 <div align="center">
-  <p align="center"><strong>Hugging Face Model</strong>strong></p>
+  <p align="center"><strong>Hugging Face Model</strong></p>
   <p align="center">
     <a href="https://huggingface.co/docs/optimum/main/en/onnxruntime/usage_guides/models#latent-consistency-models">
       <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTNlcW96bHVocmd5dmU2dnNnOWxkMTQ1MWdveDd0dG82ZjVhdWNiYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zYoSeYMRUEHQwD4Mh7/giphy.gif" alt="Hugging Face GIF" width="150">
