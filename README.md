@@ -88,6 +88,11 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
   <img src="https://github.com/SrikarVamsi/dump/blob/main/UI.png" alt="UI">
 </p>
 
+### Interstellar Themed
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/15f88a6ab6509a9e6c53e7cc5c7fe15c5262f1d9/images/img1.png" alt="Interstellar">
+</p>
+
 ### Avengers Themed
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/aven2.png" alt="Avengers">
@@ -96,11 +101,6 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 ### Pokemon Themed
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/poki%20poki.jpg" alt="Pokemon">
-</p>
-
-### Mahabharata Themed
-<p align="center">
-  <img src="https://github.com/SrikarVamsi/dump/blob/main/MB.jpg" alt="Mahabharata">
 </p>
 
 ### Ramayana Themed
