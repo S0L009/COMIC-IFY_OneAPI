@@ -15,8 +15,7 @@ def process_file(file, theme):
     extracted_text = read_n_return_pages(file)
 
     text = []       #Output text from the model is collected in this
-    img_paths = []  #Output paths of the image are collected in this
-    file_name = 0
+    imgs = []  #Output paths of the image are collected in this
 
     for chunk in extracted_text:
 
@@ -27,24 +26,19 @@ def process_file(file, theme):
             text.append( request_wrapper(chunk_gen, {"theme": theme, "word_limit": "80", "chunk_content": chunk} ) ['generated-chunk'])
 
         #inferenced img
-            img_paths.append( decode_and_save_image(json_content = request_wrapper(img_gen, {"theme": theme} )['json-b64-format-of-image-generated'], output_filename='img'+str(file_name)))
+            imgs.append(decode_and_save_image(json_content = request_wrapper(img_gen, {"theme": theme} )['json-b64-format-of-image-generated']))
         except:
             pass
 
-        file_name += 1
-
-    
     final_outputs = [Image.open('./Templates/coverpage.png')]
     final_outputs[0] = final_outputs[0].convert('RGB')
 
-    #this for testing
-    # final_outputs = [Image.open('./Templates/comicify_logo.jpg'),Image.open('./Templates/hyper_Avengers2.png'),Image.open('./Templates/hyper_spiderman0.png'),Image.open('./Templates/hyper_spiderman1.png')]
 
     for i in range(0, len(text), 2):
 
         #Images and texts are combined a put together in a template using Image Processing techniques
         #Per page, 2 images and 2 text paragraphs corresponding to that image
-        final_outputs.append( Image.fromarray( generate_main(im_path = img_paths[i:i+2], texts = text[i:i+2]) ) )
+        final_outputs.append( Image.fromarray( generate_main(imgs = imgs[i:i+2], texts = text[i:i+2]) ) )
 
                 
     st.write(f'Boom💥💥💥', unsafe_allow_html=True)
@@ -56,11 +50,14 @@ def process_file(file, theme):
         
     # Images to PDF
     output_pdf_path = "🔥.pdf"
+
     from io import BytesIO
+
     pdf_bts = BytesIO()
     final_outputs[0].save(pdf_bts, "PDF" ,resolution=100.0, save_all=True, append_images=final_outputs[1:])  
     pdf_bts.seek(0)
     st.session_state.data, st.session_state.output_pdf_path = pdf_bts, output_pdf_path
+    
     return True
 
 def homepage():
