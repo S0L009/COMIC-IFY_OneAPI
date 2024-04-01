@@ -4,16 +4,22 @@
 </p> -->
 
 <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicify_logo_sk.jpg" alt="cropped_logo">
+<div style="background-color:#f2f2f2; padding:20px; border-radius: 10px;">
 
-# Transforming Words to Worlds
+# **Transforming Words to Worlds** 🌎
+
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamlyYWRhZnJucGF4ejM1Y2Z4Mmg2NmtvZTBmaWRiZGg2Y25rcW13NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F2gwWo2vLgRMhjLFs0/giphy.gif" alt="W2W">
 </p>
 
-# HOLA! WE ARE COMIC-IFY
+## **¡HOLA! WE ARE COMIC-IFY** 🎨
+
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG9ycXE2M3JuZW1jZ2FteDJldHc2MWtwaDloYWU2b2M3Z3BhZGt6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MlxI9wxBir2kVzvkIQ/giphy.gif" alt="Hello">
 </p>
+
+</div>
+
 
 ## What is Comic-ify?
 Comic-ify is not just another tool. It's a revolution in how we consume information. Imagine this: you have a stack of boring PDFs, full of dense text that drains your energy just thinking about it. We've all been there. But fear not! Comic-ify is here to transform your reading experience.
