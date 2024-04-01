@@ -3,10 +3,10 @@ from imgtxt3gen import draw_text_on_image
 from PIL import Image
 import streamlit as st
 
-def generate_final_image(full_page_image_path, im0_path, im1_path, headings, texts, positions, font_path, font_size, font_color):
+def generate_final_image(full_page_image_path, img0, img1, headings, texts, positions, font_path, font_size, font_color):
     full_page_image = cv2.imread(full_page_image_path)
-    im0 = cv2.imread(im0_path)
-    im1 = cv2.imread(im1_path)
+    im0 = img0
+    im1 = img1
 
     final_image = full_page_image.copy()
 
@@ -29,7 +29,7 @@ def generate_final_image(full_page_image_path, im0_path, im1_path, headings, tex
 
     return final_image
 
-def generate_main(im_path, texts):
+def generate_main(imgs, texts):
     
     full_page_image_path = "./Templates/template1.png"
     headings = ["", ""]
@@ -37,14 +37,17 @@ def generate_main(im_path, texts):
     font_path = ["franklin.otf", "franklinh.otf"]
     font_size = [50, 50]
     font_color = "#48716E"
-    im0_path = im_path[0]
-    if len(im_path) == 1: 
-        im1_path = r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\comic.jpg"
+    import numpy as np
+    
+    img0 = cv2.cvtColor(np.array(imgs[0]), cv2.COLOR_BGR2RGB)
+    if len(imgs) == 1: 
+        img1 = cv2.imread(r"C:\Users\Krish\OneDrive - Amrita Vishwa Vidyapeetham\Comic-ify\codes\Templates\comicify_logo.jpg")
         texts.append("Why Comic-IFY? Comic-ify isn't just about making content pretty; it's about making it accessible. We believe that knowledge should be a joy to consume, not a burden to bear. With Comic-ify, you'll not only understand the content better, but you'll actually enjoy the process. It's a win-win situation.")
     else:
-        im1_path = im_path[1]
+        img1 = cv2.cvtColor(np.array(imgs[1]), cv2.COLOR_BGR2RGB)
 
-    final_image = generate_final_image(full_page_image_path, im0_path, im1_path, headings, texts, positions, font_path, font_size, font_color)
+    final_image = generate_final_image(full_page_image_path, img0, img1, headings, texts, positions, font_path, font_size, font_color)
+
     final_image = cv2.cvtColor(final_image, cv2.COLOR_BGR2RGB)
     return final_image
 
