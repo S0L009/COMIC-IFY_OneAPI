@@ -90,7 +90,7 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 
 ### Interstellar Themed
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/f28b019e26e516377e438076a4150ffe45f2f7c7/images/2480%20x%203508%20(3).png" alt="Interstellar">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/f28b019e26e516377e438076a4150ffe45f2f7c7/images/2480%20x%203508%20(4).png" alt="Interstellar">
 </p>
 
 ### Avengers Themed
