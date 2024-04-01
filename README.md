@@ -136,6 +136,12 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 |:---:|:---:|:---:|
 
 
+## Check Out Our Demo and Model
+
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red)](https://www.youtube.com/watch?v=1xngEIozVgw)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Model-blue)](fuckin paste it!)
+
+
 
 
 
