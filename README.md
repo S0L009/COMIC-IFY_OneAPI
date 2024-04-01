@@ -48,6 +48,36 @@ Example: If the emphasis is on Operating Systems, users can prompt for a detaile
   <img src="https://github.com/SrikarVamsi/dump/blob/main/Comicify-PPT.png?raw=true" alt="workflow">
 </p>
 
+
+ ## **Check Out Our Demo and Model**
+
+**Explore our demo video on YouTube and our Hugging Face model below:**
+
+<div align="center">
+  <p align="center"><strong>YouTube Demo</strong></p>
+  <p align="center">
+    <a href="https://www.youtube.com/watch?v=1xngEIozVgw">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzNzYW9ic21ybW0yeXJka2xvdjVkNGt1czc5aHBsMWE2b2UzYWxvdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13Nc3xlO1kGg3S/giphy.gif" alt="YouTube GIF" width="150">
+    </a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=1xngEIozVgw">Click Here!</a>
+  </p>
+</div>
+
+<div align="center">
+  <p align="center"><strong>Hugging Face Model</strong>strong></p>
+  <p align="center">
+    <a href="https://huggingface.co/docs/optimum/main/en/onnxruntime/usage_guides/models#latent-consistency-models">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTNlcW96bHVocmd5dmU2dnNnOWxkMTQ1MWdveDd0dG82ZjVhdWNiYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zYoSeYMRUEHQwD4Mh7/giphy.gif" alt="Hugging Face GIF" width="150">
+    </a>
+    <br>
+    <a href="https://huggingface.co/docs/optimum/main/en/onnxruntime/usage_guides/models#latent-consistency-models">Click Here!</a>
+  </p>
+</div>
+
+
+
+
 ## RUNNING FAST API
 
 To run the FastAPI app locally
@@ -135,11 +165,6 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 | ![Image Manipulation](https://img.shields.io/badge/Image_Manipulation-experimental-orange) | ![Langchain](https://img.shields.io/badge/Langchain-experimental-orange) | |
 |:---:|:---:|:---:|
 
-
-## Check Out Our Demo and Model
-
-[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red)](https://www.youtube.com/watch?v=1xngEIozVgw)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Model-blue)](fuckin paste it!)
 
 
 
