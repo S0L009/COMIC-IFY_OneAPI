@@ -26,7 +26,7 @@ def inference_image_jsonb64(prompt: str, openai_client: OpenAI, size: str = "102
   return response.data[0].b64_json
 
 
-def decode_and_save_image(json_content, output_filename): # base64 json content
+def decode_and_save_image(json_content): # base64 json content
   """
   Decodes a base64 encoded image from a JSON file and saves it locally.
 
@@ -44,12 +44,4 @@ def decode_and_save_image(json_content, output_filename): # base64 json content
   # Use Pillow to create an image from the decoded data
   image = Image.open(io.BytesIO(decoded_data))
 
-  # output path
-  output_path = './generated_images/' + output_filename + '.png' # png extension is added, using png for more crispness
-
-  # Save the image to the specified location
-  image.save(
-      output_path # !!!!!!!! remove /content while deploying
-      )
-
-  return output_path
+  return image
