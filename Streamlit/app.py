@@ -4,7 +4,7 @@ from PIL import Image
 from PyPDF2 import PdfReader
 from api_request_wrapper import request_wrapper, chunk_gen, img_gen, head_gen, detailed_info_gen
 from image_gen_helper import decode_and_save_image
-from generate1 import generate_main
+from generate import generate_main
 from streamlit_option_menu import option_menu
 import base64
 import re
