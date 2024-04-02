@@ -172,7 +172,6 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 |:---:|:---:|:---:|
 
 
-
 ## About the Team
 
 <p align="center">
@@ -181,41 +180,72 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 
 Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyapeetham's AI branch:
 
-1. **Surya**
+**<p align="center">Surya</p>**
    <p align="center">
      <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/surya.jpg" alt="Surya's Picture" width="150">
    </p>
-   - [LinkedIn Profile](https://www.linkedin.com/in/surya-santhosh-64a08b297/)
-   - [Instagram Profile](https://www.instagram.com/ss.surya.ss/)
+   <p align="center">
+     <a href="https://www.linkedin.com/in/surya-santhosh-64a08b297/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/ss.surya.ss/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
 
-2. **Amrit**
+**<p align="center">Amrit</p>**
    <p align="center">
      <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/amrith.jpg" alt="Amrit's Picture" width="150">
    </p>
-   - [LinkedIn Profile](https://www.linkedin.com/in/macromrit/)
-   - [Instagram Profile](https://www.instagram.com/amritsubramanian.c/)
+   <p align="center">
+     <a href="https://www.linkedin.com/in/macromrit/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/amritsubramanian.c/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
 
-3. **Navneet**
+**<p align="center">Navneet</p>**
    <p align="center">
      <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/me.jpg" alt="Navneet's Picture" width="150">
    </p>
-   - [LinkedIn Profile](https://www.linkedin.com/in/navneet-krishna-669000279/)
-   - [Instagram Profile](https://www.instagram.com/krri__shh/)
+   <p align="center">
+     <a href="https://www.linkedin.com/in/navneet-krishna-669000279/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/krri__shh/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
 
-4. **Srikar**
+**<p align="center">Srikar</p>**
    <p align="center">
      <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/srikar.jpg" alt="Srikar's Picture" width="150">
    </p>
-   - [LinkedIn Profile](https://www.linkedin.com/in/kottakki-srikar-vamsi/)
-   - [Instagram Profile](https://www.instagram.com/srikarvamsi1230/)
+   <p align="center">
+     <a href="https://www.linkedin.com/in/kottakki-srikar-vamsi/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/srikarvamsi1230/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
 
-5. **Kavya** (Team Master)
+**<p align="center">Kavya</p>**
    <p align="center">
      <img src="https://github.com/SrikarVamsi/dump/blob/main/kav.jpg" alt="Kavya's Picture" width="150">
    </p>
-   - [LinkedIn Profile](https://www.linkedin.com/in/kavya-sakthivel/)
-   - [Instagram Profile](https://www.instagram.com/kaavyaa04/)
-   (Note: Kavya has not participated in the hackathon but has been an integral part of the project.)
+   <p align="center">
+     <a href="https://www.linkedin.com/in/kavya-sakthivel/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/kaavyaa04/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
+   
+   **(Note: Kavya has not participated in the hackathon but has been an integral part of the project.)**
 
 ## Future Developments
 
