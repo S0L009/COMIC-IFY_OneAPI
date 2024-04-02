@@ -180,31 +180,43 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 ## 🛸 Outputs
 
 ### UI Design
-## Main page
 <p align="center">
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicfy_main.jpg" alt="UI_main_page">
 </p>
 
+### Different Outputs
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/efcdb5be9ef0561e9f43f1ebd83397b922b49f9e/images/2480%20x%203508%20(3).png" alt="Get_your_feet_wet">
+</p>
+
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/efcdb5be9ef0561e9f43f1ebd83397b922b49f9e/images/2480%20x%203508%20(4).png" alt="Get_your_feet_wet">
+</p>
+
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/efcdb5be9ef0561e9f43f1ebd83397b922b49f9e/images/final_image.jpg" alt="Get_your_feet_wet">
+</p>
 
 ### Get your feet wet 
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/poki%20poki.jpg" alt="Get_your_feet_wet">
-  
+</p>
+
+<p align="center">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/ram.jpg" alt="Ramayana">
 </p>
 
 
-
-
-## Splash and Submerge 
+### Splash and Submerge 
 
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/epic.jpg" alt="Splash">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/maha.png" alt="Splash">
 </p>
 
 
 ### Deep Dive
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/avengers.jpg" alt="Avengers">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/output_1.png" alt="Avengers">
 </p>
 
 
