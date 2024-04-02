@@ -158,7 +158,7 @@ uvicorn main:app --reload
 ```
 Step4: Test the APIs on Swagger-UI (your app should look like this)
 
-<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/FASTAPI-SWAGGER-UI-SS.png" alt="swagger_ui_ss">
+<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/swagger.jpg" alt="swagger_ui_ss">
 
 ## ⚡ Intel OneAPI Tools
 ## Intel Tool-Kits Used
