@@ -177,12 +177,22 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 
 
 
-### UI Design
-## Main page
+## UI Design
 <p align="center">
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicfy_main.jpg" alt="UI_main_page">
 </p>
 
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/ccfab1a3f83c21441113f949e229a115f12ba8d7/images/2480%20x%203508%20(3).png" alt="UI_main_page">
+</p>
+
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/ccfab1a3f83c21441113f949e229a115f12ba8d7/images/2480%20x%203508%20(4).png" alt="UI_main_page">
+</p>
+
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/ccfab1a3f83c21441113f949e229a115f12ba8d7/images/final_image.jpg" alt="UI_main_page">
+</p>
 
 ### Get your feet wet 
 <p> This option, gives a short introductory summary of the PDF that the user has given.</p>
