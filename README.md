@@ -115,9 +115,9 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
 
 
 
- ## **Check Out Our Demo and Model**
+ ## **Check Out Our Video**
 
-**Explore our demo video on YouTube and our Hugging Face model below:**
+**Explore our demo video on YouTube**
 
 <div align="center">
   <p align="center"><strong>YouTube Demo</strong></p>
