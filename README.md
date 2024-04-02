@@ -69,11 +69,7 @@ Welcome to Comic-ify, a revolutionary application fueled by cutting-edge LLM-bas
 
 
 
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
+
 
 ## 🐚 About Comic-ify
 Comic-ify is not just another tool. It's a revolution in how we consume information. Imagine this: you have a stack of boring PDFs, full of dense text that drains your energy just thinking about it. We've all been there. But fear not! Comic-ify is here to transform your reading experience. Let's face it, deciphering pages of dull, overwhelming text is like trying to climb a mountain without a rope. It's tough, it's exhausting, and frankly, it's no fun at all. We've experienced this struggle since our early days, constantly grappling with the challenge of making tedious content engaging.
@@ -90,22 +86,14 @@ Users can choose predefined themes. For example, in the 'Indian Mythology' theme
 - **Highlight User’s Prefered topics**
 Example: If the emphasis is on Operating Systems, users can prompt for a detailed explanation of how system calls work, directing the explanation accordingly.
 
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
+
 
 ## 🔮 Vision: Transforming Content Consumption
 
 Comic-ify is revolutionizing how we engage with information. Powered by cutting-edge LLM-based models, our tool effortlessly converts dense PDFs into visually engaging comic-style content. Say goodbye to tedious paragraphs and hello to an immersive experience where information comes to life! Why Comic-ify? Because we believe knowledge should be accessible and enjoyable. With Comic-ify, understanding content becomes effortless, and the process becomes a pleasure. It's a win-win for all.
 
 
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
+
 ## 🌈 Workflow Diagram
 
 <p align="center">
