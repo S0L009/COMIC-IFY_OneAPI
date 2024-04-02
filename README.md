@@ -170,7 +170,7 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 
 ### UI Design
 <p align="center">
-  <img src="https://github.com/SrikarVamsi/dump/blob/main/UI.png" alt="UI">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicfy_main.jpg" alt="UI">
 </p>
 
 ### Interstellar Themed
