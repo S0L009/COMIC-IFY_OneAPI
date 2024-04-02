@@ -29,7 +29,6 @@
       <a href="#about-the-project">🐚 About Comic-ify</a>
       <ul>
         <li><a href="#features">⭐️ Features</a></li>
-        <li><a href="#project-status">🚧 Project Status</a></li>
         <li><a href="#vision">🔮 Vision</a></li>
       </ul>
     </li>
@@ -41,12 +40,15 @@
       <ul>
         <li><a href="#1-build-and-setup">1. Build and Setup</a></li>
         <li><a href="#2-run-the-application">2. Running FastAPI</a></li>
-        <li><a href="#3-individual-server-startup">3. Individual Server Startup</a></li>
-        <li><a href="#4-help">4. Help</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#intel">⚡ Intel OneAPI Tools</a>
+    </li>
     <li><a href="#outputs">🛸 Outputs</a></li>
-    <li><a href="#community">🤖 Join Our Community</a></li>
+    <li><a href="#project-status">🚧 Project Status</a></li>
+    <li><a href="#community">🤖 Meet us!</a></li>
+    
     <li><a href="#research-strategy">⭐️ Research Strategy</a></li>
     <li><a href="#how-to-contribute">🤝 How to Contribute</a></li>
     <li><a href="#built-with">🛠️ Built With</a></li>
@@ -57,22 +59,15 @@
 
 
 
-<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicify_logo_sk.jpg" alt="cropped_logo">
-<div style="background-color:#f2f2f2; padding:20px; border-radius: 10px;">
+## 🎯 Mission
 
-# **Transforming Words to Worlds** 🌎
+[Project Demo Video](https://github.com/S0L009/COMIC-IFY_OneAPI/assets/121689231/530288cc-1c34-49cd-b62e-da7d25921d5f)
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamlyYWRhZnJucGF4ejM1Y2Z4Mmg2NmtvZTBmaWRiZGg2Y25rcW13NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F2gwWo2vLgRMhjLFs0/giphy.gif" alt="W2W">
-</p>
+Welcome to Comic-ify, a revolutionary application fueled by cutting-edge LLM-based technology. Simply upload your mundane PDF, and prepare to be dazzled as it metamorphoses into a visually stunning comic-style masterpiece! Say goodbye to drowning in endless paragraphs and hello to a world where information leaps off the page, guiding you to your rightful destination in the most captivating way possible! Get ready to redefine your reading experience – Comic-ify is here to elevate it to unprecedented heights!
 
-## **¡HOLA! WE ARE COMIC-IFY** 🎨
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG9ycXE2M3JuZW1jZ2FteDJldHc2MWtwaDloYWU2b2M3Z3BhZGt6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MlxI9wxBir2kVzvkIQ/giphy.gif" alt="Hello">
-</p>
 
-</div>
+
 
 
 ## 🐚 About Comic-ify
@@ -90,8 +85,6 @@ Users can choose predefined themes. For example, in the 'Indian Mythology' theme
 - **Highlight User’s Prefered topics**
 Example: If the emphasis is on Operating Systems, users can prompt for a detailed explanation of how system calls work, directing the explanation accordingly.
 
-
-## 🚧 Project Status
 
 
 ## 🔮 Vision: Transforming Content Consumption
@@ -204,6 +197,21 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/HP.jpg " alt="Harry Potter">
 </p>
+
+
+## 🚧 Project Status
+Comicify is currently under active development, but you can already experience its early capabilities by running the alpha version. Our dedicated team is diligently working on achieving the following key milestones:
+
+- **Expanding Templates and Themes**: We're dedicated to enriching the Comicify experience by adding more templates and themes for the output. These new designs will offer users a wider range of options to customize their comic-style content, ensuring greater flexibility and creativity in transforming text-heavy materials.
+
+- **Scaling the Product**: As Comicify gains momentum, we're focusing on scaling the product to accommodate growing demand and usage. This involves optimizing performance, enhancing scalability, and ensuring seamless user experiences even as our user base expands.
+
+- **Innovative Feature Research**: Our team is actively researching new and innovative features that align with our mission of making content consumption enjoyable. From interactive elements to gamification features, we're exploring ways to infuse Comicify with engaging functionalities that enhance user engagement and retention.
+
+- **Continuous Improvement**: Beyond adding new features, we're committed to continuously improving Comicify based on user feedback and emerging trends. This includes refining existing features, optimizing workflows, and addressing any issues or pain points identified by our users.
+
+As we continue to evolve Comicify, our goal remains clear: to revolutionize the way people consume and interact with information by making content fun, engaging, and visually appealing. 
+
 
 
 ## Tech Stack
