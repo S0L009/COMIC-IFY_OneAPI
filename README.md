@@ -3,6 +3,60 @@
   <img src="https://github.com/SrikarVamsi/dump/blob/main/WhatsApp%20Image%202024-03-26%20at%2021.01.47_a572f875.jpg?raw=true" alt="Logo">
 </p> -->
 
+<div align="center">
+  <a href="https://github.com/OpenDevin/OpenDevin/graphs/contributors"><img src="https://img.shields.io/badge/CONTRIBUTORS-4-6cf542" alt="Contributors"></a>
+  <a href="https://github.com/OpenDevin/OpenDevin/network/members"><img src="https://img.shields.io/badge/COMMITS-100+-blue" alt="Forks"></a>
+  <a href="https://github.com/OpenDevin/OpenDevin/stargazers"><img src="https://img.shields.io/badge/STARS-3-blue" alt="Stargazers"></a>
+  <a href="https://github.com/OpenDevin/OpenDevin/issues"><img src="https://img.shields.io/badge/CLONED-54+ TIMES-efca08" alt="Issues"></a>
+  <a href="https://github.com/OpenDevin/OpenDevin/blob/main/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-6cf542" alt="MIT License"></a>
+</div>
+
+
+<!-- PROJECT LOGO -->
+<div align="center">
+  <img src="./images/logo.png" alt="Logo" width="200" height="200">
+  <h1 align="center">Comic-ify: Making Learning Fun, Forever</h1>
+</div>
+
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>🗂️ Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">🐚 About Comic-ify</a>
+      <ul>
+        <li><a href="#features">⭐️ Features</a></li>
+        <li><a href="#project-status">🚧 Project Status</a></li>
+        <li><a href="#vision">🔮 Vision</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#workflow">🌈 Workflow Diagram</a>
+    </li>
+    <li>
+      <a href="#get-started">🚀 Get Started</a>
+      <ul>
+        <li><a href="#1-build-and-setup">1. Build and Setup</a></li>
+        <li><a href="#2-run-the-application">2. Running FastAPI</a></li>
+        <li><a href="#3-individual-server-startup">3. Individual Server Startup</a></li>
+        <li><a href="#4-help">4. Help</a></li>
+      </ul>
+    </li>
+    <li><a href="#outputs">🛸 Outputs</a></li>
+    <li><a href="#community">🤖 Join Our Community</a></li>
+    <li><a href="#research-strategy">⭐️ Research Strategy</a></li>
+    <li><a href="#how-to-contribute">🤝 How to Contribute</a></li>
+    <li><a href="#built-with">🛠️ Built With</a></li>
+
+    <li><a href="#license">📜 License</a></li>
+  </ol>
+</details>
+
+
+
 <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicify_logo_sk.jpg" alt="cropped_logo">
 <div style="background-color:#f2f2f2; padding:20px; border-radius: 10px;">
 
@@ -21,19 +75,10 @@
 </div>
 
 
-## What is Comic-ify?
-Comic-ify is not just another tool. It's a revolution in how we consume information. Imagine this: you have a stack of boring PDFs, full of dense text that drains your energy just thinking about it. We've all been there. But fear not! Comic-ify is here to transform your reading experience.
+## 🐚 About Comic-ify
+Comic-ify is not just another tool. It's a revolution in how we consume information. Imagine this: you have a stack of boring PDFs, full of dense text that drains your energy just thinking about it. We've all been there. But fear not! Comic-ify is here to transform your reading experience. Let's face it, deciphering pages of dull, overwhelming text is like trying to climb a mountain without a rope. It's tough, it's exhausting, and frankly, it's no fun at all. We've experienced this struggle since our early days, constantly grappling with the challenge of making tedious content engaging.
 
-## The Problem
-Let's face it, deciphering pages of dull, overwhelming text is like trying to climb a mountain without a rope. It's tough, it's exhausting, and frankly, it's no fun at all. We've experienced this struggle since our early days, constantly grappling with the challenge of making tedious content engaging.
-
-## Our Solution
-Enter Comic-ify. Powered by state-of-the-art LLM-based models, our application works like magic. Simply upload your PDF filled with mind-numbing text, and watch as it morphs into a vibrant, visually appealing comic-style content. Say goodbye to the days of drowning in endless paragraphs and hello to a world where information leaps off the page and takes you where you belong!!
-
-## Why Comic-ify?
-Comic-ify isn't just about making content pretty; it's about making it accessible. We believe that knowledge should be a joy to consume, not a burden to bear. With Comic-ify, you'll not only understand the content better, but you'll actually enjoy the process. It's a win-win situation.
-
-## Features
+## ⭐️ Features
 Lexicon, our fine-tuned model is employed to generate imaginative text and produce images inspired by the text. captivating readers as they explore the content
 
 - **Input as prompt or PDF**
@@ -45,10 +90,17 @@ Users can choose predefined themes. For example, in the 'Indian Mythology' theme
 - **Highlight User’s Prefered topics**
 Example: If the emphasis is on Operating Systems, users can prompt for a detailed explanation of how system calls work, directing the explanation accordingly.
 
-## HOW OUR WORK FLOWS:
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3V6YXNiZTVwYTNqN3ZnanNjOXRoM2l6ZDVtdGZ5Z2R0bG1nNHNrYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26xBKuuVuNxp8seTS/giphy.gif" alt="workflow_gif">
-</p>
+
+## 🚧 Project Status
+
+
+## 🔮 Vision: Transforming Content Consumption
+
+Comic-ify is revolutionizing how we engage with information. Powered by cutting-edge LLM-based models, our tool effortlessly converts dense PDFs into visually engaging comic-style content. Say goodbye to tedious paragraphs and hello to an immersive experience where information comes to life! Why Comic-ify? Because we believe knowledge should be accessible and enjoyable. With Comic-ify, understanding content becomes effortless, and the process becomes a pleasure. It's a win-win for all.
+
+
+
+## 🌈 Workflow Diagram
 
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/Comicify-PPT.png?raw=true" alt="workflow">
@@ -84,26 +136,30 @@ Example: If the emphasis is on Operating Systems, users can prompt for a detaile
 
 
 
-## RUNNING FAST API
+## 🚀 Get Started
 
-To run the FastAPI app locally
+### 1. Build and Setup
+Clone the Comic-ify repository to your local machine using the following command:
+```bash
+git clone https://github.com/S0L009/COMIC-IFY_OneAPI.git
+```
+### 2. Running the Fast API
+Run the FastAPI server locally to enable all endpoints
 
-Step1: install the fastapi directory from the repo, and navigate the termial to it
+Step1: Install the FastAPI directory from the repository and navigate into it in your terminal
 
-
-
-step2: pip install requirements.txt file
+Step2: Install all necessary dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-step3: run the uvicorn ASGI server to get the endpoints functional
+Step3: Run the uvicorn ASGI server to get the endpoints functional
 ```bash
 uvicorn main:app --reload
 ```
+Step4: Test the APIs on Swagger-UI (your app should look like this)
 
-step4: Test the APIs on Swagger-UI
-<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/01e7edf8d8f40d6ae4ee72a9be37c200e5b55d09/images/comicify-fastapi.png" alt="swagger_ui_ss">
+<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/FASTAPI-SWAGGER-UI-SS.png" alt="swagger_ui_ss">
 
 ## Intel Tool-Kits Used
 | **Sno** | **Intel Product Used** | **Description** | 
@@ -171,7 +227,8 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 | ![Image Manipulation](https://img.shields.io/badge/Image_Manipulation-experimental-orange) | ![Langchain](https://img.shields.io/badge/Langchain-experimental-orange) | |
 |:---:|:---:|:---:|
 
-## About the Team
+
+## 🤖 Join Our Community
 
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/amrita_logo.png" alt="Amrita Vishwa Vidyapeetham Logo">
@@ -179,74 +236,72 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 
 Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyapeetham's AI branch:
 
-<div style="display: flex; justify-content: space-between;">
+**<p align="center">Surya</p>**
+   <p align="center">
+     <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/surya.jpg" alt="Surya's Picture" width="150">
+   </p>
+   <p align="center">
+     <a href="https://www.linkedin.com/in/surya-santhosh-64a08b297/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/ss.surya.ss/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
 
-    
-  <div>
-    <p align="center">Surya</p>
-    <p align="center">
-      <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/surya.jpg" alt="Surya's Picture" width="150">
-    </p>
-    <p align="center">
-      <a href="https://www.linkedin.com/in/surya-santhosh-64a08b297/">
-        <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
-      </a>
-      <a href="https://www.instagram.com/ss.surya.ss/">
-        <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
-      </a>
-    </p>
-  </div>
+**<p align="center">Amrit</p>**
+   <p align="center">
+     <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/amrith.jpg" alt="Amrit's Picture" width="150">
+   </p>
+   <p align="center">
+     <a href="https://www.linkedin.com/in/macromrit/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/amritsubramanian.c/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
 
-  <div>
-    <p align="center">Amrit</p>
-    <p align="center">
-      <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/amrith.jpg" alt="Amrit's Picture" width="150">
-    </p>
-    <p align="center">
-      <a href="https://www.linkedin.com/in/macromrit/">
-        <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
-      </a>
-      <a href="https://www.instagram.com/amritsubramanian.c/">
-        <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
-      </a>
-    </p>
-  </div>
+**<p align="center">Navneet</p>**
+   <p align="center">
+     <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/me.jpg" alt="Navneet's Picture" width="150">
+   </p>
+   <p align="center">
+     <a href="https://www.linkedin.com/in/navneet-krishna-669000279/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/krri__shh/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
 
-  <div>
-    <p align="center">Navneet</p>
-    <p align="center">
-      <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/me.jpg" alt="Navneet's Picture" width="150">
-    </p>
-    <p align="center">
-      <a href="https://www.linkedin.com/in/navneet-krishna-669000279/">
-        <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
-      </a>
-      <a href="https://www.instagram.com/krri__shh/">
-        <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
-      </a>
-    </p>
-  </div>
+**<p align="center">Srikar</p>**
+   <p align="center">
+     <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/srikar.jpg" alt="Srikar's Picture" width="150">
+   </p>
+   <p align="center">
+     <a href="https://www.linkedin.com/in/kottakki-srikar-vamsi/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/srikarvamsi1230/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
 
-  <div>
-    <p align="center">Srikar</p>
-    <p align="center">
-      <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/srikar.jpg" alt="Srikar's Picture" width="150">
-    </p>
-    <p align="center">
-      <a href="https://www.linkedin.com/in/kottakki-srikar-vamsi/">
-        <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
-      </a>
-      <a href="https://www.instagram.com/srikarvamsi1230/">
-      <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
-      </a>
-    </p>
-  </div>
-
-
-</div>
-
-
-
+**<p align="center">Kavya</p>**
+   <p align="center">
+     <img src="https://github.com/SrikarVamsi/dump/blob/main/kav.jpg" alt="Kavya's Picture" width="150">
+   </p>
+   <p align="center">
+     <a href="https://www.linkedin.com/in/kavya-sakthivel/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/kaavyaa04/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
+   
+   **(Note: Kavya has not participated in the hackathon but has been an integral part of the project.)**
 
 ## Future Developments
 
