@@ -326,21 +326,6 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
      </a>
    </p>
 
-**<p align="center">Kavya</p>**
-   <p align="center">
-     <img src="https://github.com/SrikarVamsi/dump/blob/main/kav.jpg" alt="Kavya's Picture" width="150">
-   </p>
-   <p align="center">
-     <a href="https://www.linkedin.com/in/kavya-sakthivel/">
-       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
-     </a>
-     <a href="https://www.instagram.com/kaavyaa04/">
-       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
-     </a>
-   </p>
-   
-   **(Note: Kavya has not participated in the hackathon but has been an integral part of the project.)**
-
 
 
 ## Contributing to Comic-ify
