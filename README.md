@@ -102,10 +102,9 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
 
 ✨ Dataset: We have pushed our data and model to HuggingFace.
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=1xngEIozVgw)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/)
-[![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/)
-[![Intel](https://img.shields.io/badge/Intel-0071C5?style=for-the-badge&logo=intel&logoColor=white)](https://www.intel.com/)
+[![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1u6DDqnxUgWTlgHAeIW7bdt0CnYkCX6fT?usp=sharing)
 
 
 
@@ -248,6 +247,18 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
 |:---:|:---:|:---:|
 
 
+
+## 🥳 What we learned 
+
+![banner](./images/Intel-AI-Kit-Banner.png)
+
+✅ **Utilizing the Intel® AI Analytics Toolkit**: By utilizing the Intel® AI Analytics Toolkit, developers can leverage familiar Python* tools and frameworks to accelerate the entire data science and analytics process on Intel® architecture. This toolkit incorporates oneAPI libraries for optimized low-level computations, ensuring maximum performance from data preprocessing to deep learning and machine learning tasks. Additionally, it facilitates efficient model development through interoperability.
+
+✅ **Seamless Adaptability**: The Intel® AI Analytics Toolkit enables smooth integration with machine learning and deep learning workloads, requiring minimal modifications.
+
+✅ **Fostered Collaboration**: The development of such an application likely involved collaboration with a team comprising experts from diverse fields, including deep learning and data analysis. This experience likely emphasized the significance of collaborative efforts in attaining shared objectives.
+
+
 ## 🤖 Join Our Community
 
 <p align="center">
@@ -322,6 +333,8 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
    </p>
    
    **(Note: Kavya has not participated in the hackathon but has been an integral part of the project.)**
+
+
 
 ## Contributing to Comic-ify
 
