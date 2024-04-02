@@ -210,7 +210,7 @@ Different explaination styles
 
 #### Splash and Submerge 
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/epic.jpg" alt="Splash">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/ccfab1a3f83c21441113f949e229a115f12ba8d7/images/2480%20x%203508%20(5)" alt="Splash">
 </p>
 
 
