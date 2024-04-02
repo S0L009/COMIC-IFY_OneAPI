@@ -180,34 +180,35 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 ## 🛸 Outputs
 
 ### UI Design
+## Main page
 <p align="center">
-  <img src="https://github.com/SrikarVamsi/dump/blob/main/UI.png" alt="UI">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicfy_main.jpg" alt="UI_main_page">
 </p>
 
-### Interstellar Themed
+
+### Get your feet wet 
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/f28b019e26e516377e438076a4150ffe45f2f7c7/images/2480%20x%203508%20(4).png" alt="Interstellar">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/poki%20poki.jpg" alt="Get_your_feet_wet">
+  
 </p>
 
-### Avengers Themed
-<p align="center">
-  <img src="https://github.com/SrikarVamsi/dump/blob/main/aven2.png" alt="Avengers">
-</p>
-
-### Pokemon Themed
-<p align="center">
-  <img src="https://github.com/SrikarVamsi/dump/blob/main/poki%20poki.jpg" alt="Pokemon">
-</p>
-
-### Ramayana Themed
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/ram.jpg" alt="Ramayana">
 </p>
 
-### Harry Potter Themed
+
+## Splash and Submerge 
+
 <p align="center">
-  <img src="https://github.com/SrikarVamsi/dump/blob/main/HP.jpg " alt="Harry Potter">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/maha.png" alt="Splash">
 </p>
+
+
+### Deep Dive
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/output_1.png" alt="Avengers">
+</p>
+
 
 
 ## 🚧 Project Status
