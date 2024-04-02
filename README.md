@@ -104,7 +104,7 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
   <img src="https://github.com/SrikarVamsi/dump/blob/main/Comicify-PPT.png?raw=true" alt="workflow">
 </p>
 
-✨ Dataset: We have pushed our data and model to HuggingFace, however it is currently made private.
+**✨ Dataset: We have pushed our data and model to HuggingFace, however it is currently made private.**
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=1xngEIozVgw)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/)
