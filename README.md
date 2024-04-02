@@ -104,7 +104,7 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
   <img src="https://github.com/SrikarVamsi/dump/blob/main/Comicify-PPT.png?raw=true" alt="workflow">
 </p>
 
-✨ Dataset: We have pushed our data and model to HuggingFace.
+✨ Dataset: We have pushed our data and model to HuggingFace, however it is currently made private.
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=1xngEIozVgw)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/)
@@ -130,16 +130,7 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
   </p>
 </div>
 
-<div align="center">
-  <p align="center"><strong>Hugging Face Model</strong></p>
-  <p align="center">
-    <a href="https://huggingface.co/docs/optimum/main/en/onnxruntime/usage_guides/models#latent-consistency-models">
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTNlcW96bHVocmd5dmU2dnNnOWxkMTQ1MWdveDd0dG82ZjVhdWNiYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zYoSeYMRUEHQwD4Mh7/giphy.gif" alt="Hugging Face GIF" width="150">
-    </a>
-    <br>
-    <a href="https://huggingface.co/docs/optimum/main/en/onnxruntime/usage_guides/models#latent-consistency-models">Click Here!</a>
-  </p>
-</div>
+
 
 
 
