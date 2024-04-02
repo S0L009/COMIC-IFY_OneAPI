@@ -103,7 +103,7 @@ uvicorn main:app --reload
 ```
 
 step4: Test the APIs on Swagger-UI
-<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/FASTAPI-SWAGGER-UI-SS.png" alt="swagger_ui_ss">
+<img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/01e7edf8d8f40d6ae4ee72a9be37c200e5b55d09/images/comicify-fastapi.png" alt="swagger_ui_ss">
 
 ## Intel Tool-Kits Used
 | **Sno** | **Intel Product Used** | **Description** | 
