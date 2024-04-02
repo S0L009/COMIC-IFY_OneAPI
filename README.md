@@ -228,6 +228,12 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
 
 ## 🛠️ Tech Stack
 
+![FastAPI](https://img.shields.io/badge/FastAPI-black?style=for-the-badge) ![uvicorn](https://img.shields.io/badge/uvicorn-black?style=for-the-badge) ![Gemini](https://img.shields.io/badge/Gemini-black?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-black?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-black?style=for-the-badge) ![HuggingFace](https://img.shields.io/badge/Hugging_Face-black?style=for-the-badge) ![LangChain](https://img.shields.io/badge/LangChain-black?style=for-the-badge) ![CV2](https://img.shields.io/badge/CV2-black?style=for-the-badge) ![Gemma](https://img.shields.io/badge/Gemma-black?style=for-the-badge)
+
+Comic-ify is built using a combination of powerful frameworks and libraries, providing a robust foundation for its development. Here are the key technologies used in the project:
+
+
+
 *Languages and Frameworks*
 
 | ![Python](https://img.shields.io/badge/Python-3.12-blue) | ![FASTAPI](https://img.shields.io/badge/FastAPI-0.83.2-brightgreen) | ![Streamlit](https://img.shields.io/badge/Streamlit-1.17.1-brightgreen) |
