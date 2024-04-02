@@ -47,6 +47,7 @@
     </li>
     <li><a href="#outputs">🛸 Outputs</a></li>
     <li><a href="#project-status">🚧 Project Status</a></li>
+    <li><a href="#built-with">🛠️ Tech Stack</a></li>
     <li><a href="#community">🤖 Meet us!</a></li>
     
     <li><a href="#research-strategy">⭐️ Research Strategy</a></li>
@@ -98,6 +99,17 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/Comicify-PPT.png?raw=true" alt="workflow">
 </p>
+
+✨ Dataset: We have pushed our data and model to HuggingFace.
+
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/)
+[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/)
+[![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/)
+[![Intel](https://img.shields.io/badge/Intel-0071C5?style=for-the-badge&logo=intel&logoColor=white)](https://www.intel.com/)
+
+
+
+
 
 
  ## **Check Out Our Demo and Model**
@@ -154,6 +166,7 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 
 <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/FASTAPI-SWAGGER-UI-SS.png" alt="swagger_ui_ss">
 
+## ⚡ Intel OneAPI Tools
 ## Intel Tool-Kits Used
 | **Sno** | **Intel Product Used** | **Description** | 
 |---|---|---|
@@ -162,15 +175,14 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 | 3 | Intel® DevCloud | DevCloud offers a valuable environment for our project |
 
 
-## Dataset
-We have uploaded the dataset used to train our model at: https://drive.google.com/drive/folders/1u6DDqnxUgWTlgHAeIW7bdt0CnYkCX6fT
 
 
-## Outputs
+
+## 🛸 Outputs
 
 ### UI Design
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicfy_main.jpg" alt="UI">
+  <img src="https://github.com/SrikarVamsi/dump/blob/main/UI.png" alt="UI">
 </p>
 
 ### Interstellar Themed
@@ -214,7 +226,7 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
 
 
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 *Languages and Frameworks*
 
@@ -296,16 +308,20 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
      </a>
    </p>
 
-
-
-## Future Developments
-
-We envision several exciting future features for Comic-ify, including:
-
-- Integration with educational platforms to enhance learning experiences.
-- Multilingual support for catering to a diverse audience.
-- Implementation of accessibility features for users with different needs.
-- Community functionalities to foster collaboration and user engagement.
+**<p align="center">Kavya</p>**
+   <p align="center">
+     <img src="https://github.com/SrikarVamsi/dump/blob/main/kav.jpg" alt="Kavya's Picture" width="150">
+   </p>
+   <p align="center">
+     <a href="https://www.linkedin.com/in/kavya-sakthivel/">
+       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+     </a>
+     <a href="https://www.instagram.com/kaavyaa04/">
+       <img src="https://img.shields.io/badge/Instagram-Follow-red?style=flat-square&logo=instagram" alt="Instagram">
+     </a>
+   </p>
+   
+   **(Note: Kavya has not participated in the hackathon but has been an integral part of the project.)**
 
 ## Contributing to Comic-ify
 
@@ -318,6 +334,3 @@ If you're passionate about improving information consumption and want to contrib
 
 We welcome contributions from developers, designers, and enthusiasts alike!
 
-## Conclusion
-
-Comic-ify represents a paradigm shift in how we interact with textual information. By transforming dense content into visually engaging comics, we aim to make learning a delightful experience for everyone. Join us in this journey of innovation and empowerment!
