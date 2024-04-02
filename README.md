@@ -176,11 +176,11 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 
 ## 🛸 Outputs
 Different explaination styles
-- **Deep Dive**: This option, provides a deep and detailed description about the PDFs that the user has given as input
 - **Get your feet wet**: This option, gives a short introductory summary of the PDF that the user has given.
+- **Deep Dive**: This option, provides a deep and detailed description about the PDFs that the user has given as input
 - **Splash and Submerge**: This option gives an short summary, but not as deep as the option "Deep Dive"
   
-## UI Design
+#### UI Design
 <p align="center">
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicfy_main.jpg" alt="UI_main_page">
 </p>
@@ -197,26 +197,24 @@ Different explaination styles
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/ccfab1a3f83c21441113f949e229a115f12ba8d7/images/final_image.jpg" alt="UI_main_page">
 </p>
 
-### Get your feet wet 
-<p> This option, gives a short introductory summary of the PDF that the user has given.</p>
+#### Get your feet wet 
 <p align="center">
   <img src="https://github.com/SrikarVamsi/dump/blob/main/poki%20poki.jpg" alt="Get_your_feet_wet">
   
 </p>
 
+#### Deep Dive
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/1c744ae2044801531a74a7721d4ddca3203a0e14/images/newton.jpg" alt="Avengers">
+</p>
 
-## Splash and Submerge 
-<p>This option gives an short summary, but not as deep as the option "Deep Dive" would provide</p>
+#### Splash and Submerge 
 <p align="center">
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/epic.jpg" alt="Splash">
 </p>
 
 
-### Deep Dive
-<p> This option, provides a deep and detailed description about the PDFs that the user has given as input</p>
-<p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/avengers.jpg" alt="Avengers">
-</p>
+
 
 
 ## 🚧 Project Status
