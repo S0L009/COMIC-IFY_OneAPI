@@ -208,9 +208,9 @@ Different explaination styles
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/1c744ae2044801531a74a7721d4ddca3203a0e14/images/newton.jpg" alt="Avengers">
 </p>
 
-#### Splash and Submerge 
+## Splash and Submerge 
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/ccfab1a3f83c21441113f949e229a115f12ba8d7/images/2480%20x%203508%20(5)" alt="Splash">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/385a57071362a5a5f5db5ed7fb82612d5f96ff89/images/2480%20x%203508%20(5).png" alt="Splash">
 </p>
 
 
