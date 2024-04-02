@@ -206,13 +206,13 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 ### Splash and Submerge 
 
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/epic.png" alt="Splash">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/epic.jpg" alt="Splash">
 </p>
 
 
 ### Deep Dive
 <p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/avengers.png" alt="Avengers">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/avengers.jpg" alt="Avengers">
 </p>
 
 
