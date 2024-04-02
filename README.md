@@ -179,10 +179,10 @@ We have uploaded the dataset used to train our model at: https://drive.google.co
 
 Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyapeetham's AI branch:
 
-<div class="row" style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
 
     
-  <div class="column" style=" display: flex;float:left; width :25%; padding:3px;>
+  <div>
     <p align="center">Surya</p>
     <p align="center">
       <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/surya.jpg" alt="Surya's Picture" width="150">
@@ -197,7 +197,7 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
     </p>
   </div>
 
-  <div class ="column" style=" display: flex;float:left; width :25%; padding:3px;>
+  <div>
     <p align="center">Amrit</p>
     <p align="center">
       <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/amrith.jpg" alt="Amrit's Picture" width="150">
@@ -212,7 +212,7 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
     </p>
   </div>
 
-  <div class ="column" style=" display: flex; float:left; width :25%; padding:3px;>
+  <div>
     <p align="center">Navneet</p>
     <p align="center">
       <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/me.jpg" alt="Navneet's Picture" width="150">
@@ -227,7 +227,7 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
     </p>
   </div>
 
-  <div class="column" style=" display: flex;float:left; width :25%; padding:3px;>
+  <div>
     <p align="center">Srikar</p>
     <p align="center">
       <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/Streamlit/srikar.jpg" alt="Srikar's Picture" width="150">
