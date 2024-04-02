@@ -50,11 +50,6 @@
     <li><a href="#built-with">🛠️ Tech Stack</a></li>
     <li><a href="#community">🤖 Meet us!</a></li>
     
-    <li><a href="#research-strategy">⭐️ Research Strategy</a></li>
-    <li><a href="#how-to-contribute">🤝 How to Contribute</a></li>
-    <li><a href="#built-with">🛠️ Built With</a></li>
-
-    <li><a href="#license">📜 License</a></li>
   </ol>
 </details>
 
