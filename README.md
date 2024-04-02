@@ -3,18 +3,18 @@
   <img src="https://github.com/SrikarVamsi/dump/blob/main/WhatsApp%20Image%202024-03-26%20at%2021.01.47_a572f875.jpg?raw=true" alt="Logo">
 </p> -->
 
-<div align="center">
+<!--<div align="center">
   <a href="https://github.com/OpenDevin/OpenDevin/graphs/contributors"><img src="https://img.shields.io/badge/CONTRIBUTORS-4-6cf542" alt="Contributors"></a>
   <a href="https://github.com/OpenDevin/OpenDevin/network/members"><img src="https://img.shields.io/badge/COMMITS-100+-blue" alt="Forks"></a>
   <a href="https://github.com/OpenDevin/OpenDevin/stargazers"><img src="https://img.shields.io/badge/STARS-3-blue" alt="Stargazers"></a>
   <a href="https://github.com/OpenDevin/OpenDevin/issues"><img src="https://img.shields.io/badge/CLONED-54+ TIMES-efca08" alt="Issues"></a>
   <a href="https://github.com/OpenDevin/OpenDevin/blob/main/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-6cf542" alt="MIT License"></a>
-</div>
+</div> -->
 
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <img src="./images/logo.png" alt="Logo" width="200" height="200">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicify_logo_sk.jpg" alt="Logo" width="800" height="400">
   <h1 align="center">Comic-ify: Making Learning Fun, Forever</h1>
 </div>
 
@@ -227,12 +227,6 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
 
 
 ## 🛠️ Tech Stack
-
-![FastAPI](https://img.shields.io/badge/FastAPI-black?style=for-the-badge) ![uvicorn](https://img.shields.io/badge/uvicorn-black?style=for-the-badge) ![Gemini](https://img.shields.io/badge/Gemini-black?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-black?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-black?style=for-the-badge) ![HuggingFace](https://img.shields.io/badge/Hugging_Face-black?style=for-the-badge) ![LangChain](https://img.shields.io/badge/LangChain-black?style=for-the-badge) ![CV2](https://img.shields.io/badge/CV2-black?style=for-the-badge) ![Gemma](https://img.shields.io/badge/Gemma-black?style=for-the-badge)
-
-Comic-ify is built using a combination of powerful frameworks and libraries, providing a robust foundation for its development. Here are the key technologies used in the project:
-
-
 
 *Languages and Frameworks*
 
