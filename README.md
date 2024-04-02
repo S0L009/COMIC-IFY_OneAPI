@@ -173,8 +173,10 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 | 2 | Intel® OpenVINO™ | We are making the process of implementing Q-LoRA faster using OpenVINO | 
 | 3 | Intel® DevCloud | DevCloud offers a valuable environment for our project |
 
-
-
+<div align="center">
+  <img src="https://github.com/SrikarVamsi/dump/raw/main/oneAPI.jpg" alt="oneAPI Image" width="500">
+  <p><bold>By leveraging the power of Intel® oneAPI libraries and frameworks, our models achieve remarkable performance enhancements and optimized memory utilization across various applications. The seamless integration of different components contributes to faster fine-tuning, efficient inference, and an improved overall user experience.</bold></p>
+</div>
 
 
 ## UI Design
