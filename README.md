@@ -73,9 +73,11 @@ Welcome to Comic-ify, a revolutionary application fueled by cutting-edge LLM-bas
 
 ## 🐚 About Comic-ify
 Comic-ify is not just another tool. It's a revolution in how we consume information. Imagine this: you have a stack of boring PDFs, full of dense text that drains your energy just thinking about it. We've all been there. But fear not! Comic-ify is here to transform your reading experience. Let's face it, deciphering pages of dull, overwhelming text is like trying to climb a mountain without a rope. It's tough, it's exhausting, and frankly, it's no fun at all. We've experienced this struggle since our early days, constantly grappling with the challenge of making tedious content engaging.
+
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamlyYWRhZnJucGF4ejM1Y2Z4Mmg2NmtvZTBmaWRiZGg2Y25rcW13NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F2gwWo2vLgRMhjLFs0/giphy.gif" alt="W2W">
 </p>
+
 ## ⭐️ Features
 Lexicon, our fine-tuned model is employed to generate imaginative text and produce images inspired by the text. captivating readers as they explore the content
 
