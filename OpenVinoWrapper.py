@@ -1,6 +1,8 @@
 from optimum.intel.openvino import OVModelForCausalLM
 from transformers import AutoTokenizer, pipeline
 
+model_id = "Macromrit/Lexicon"
+
 def call_model(model_id, task, prompt=None, text=None, target_lang=None):
   """
   Wrapper function to call various NLP models using transformers and OpenVINO.
