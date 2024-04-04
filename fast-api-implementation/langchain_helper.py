@@ -71,7 +71,7 @@ generated-heading:
 chunk_imp_info_chain = inference_gemini_chain(llm, """
 You are a World Class Text Analyser, your task is to analyse the text chunk given delimited by triple backticks and extract essential ideas and concepts from it. then make sure to list out all those important points, preserve info as much as possible and give point wise output with a bit of description
 
-IMPORTANT: dont generate more than {word_count} words, dont use formatting like '**'
+IMPORTANT: generate atleast {word_count} words, dont use formatting like '**'
 
 output-format:
   <3 line description>
