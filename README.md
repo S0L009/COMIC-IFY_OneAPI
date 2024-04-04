@@ -107,7 +107,11 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
 
 
 
+##👩🏻‍💼 Userflow Diagram
 
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/9f02ab3d93a19f536c5ccbbdbbca205a2efdc546/images/Comicify-User-flow.png" alt="workflow">
+</p>
 
 
  ## **Check Out Our Video**
