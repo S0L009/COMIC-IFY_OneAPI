@@ -11,7 +11,7 @@
   <a href="https://github.com/OpenDevin/OpenDevin/blob/main/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-6cf542" alt="MIT License"></a>
 </div> -->
 
-
+<a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <div align="center">
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/comicify_logo_sk.jpg" alt="Logo" width="800" height="400">
@@ -26,7 +26,7 @@
   <summary>🗂️ Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">🐚 About Comic-ify</a>
+      <a href="#about">🐚 About Comic-ify</a>
       <ul>
         <li><a href="#features">⭐️ Features</a></li>
         <li><a href="#vision">🔮 Vision</a></li>
@@ -65,14 +65,18 @@ Welcome to Comic-ify, a revolutionary application fueled by cutting-edge LLM-bas
 
 
 
-
+<a name="about"></a>
 ## 🐚 About Comic-ify
 Comic-ify is not just another tool. It's a revolution in how we consume information. Imagine this: you have a stack of boring PDFs, full of dense text that drains your energy just thinking about it. We've all been there. But fear not! Comic-ify is here to transform your reading experience. Let's face it, deciphering pages of dull, overwhelming text is like trying to climb a mountain without a rope. It's tough, it's exhausting, and frankly, it's no fun at all. We've experienced this struggle since our early days, constantly grappling with the challenge of making tedious content engaging.
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamlyYWRhZnJucGF4ejM1Y2Z4Mmg2NmtvZTBmaWRiZGg2Y25rcW13NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F2gwWo2vLgRMhjLFs0/giphy.gif" alt="W2W">
 </p>
-
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
 ## ⭐️ Features
 Lexicon, our fine-tuned model is employed to generate imaginative text and produce images inspired by the text. captivating readers as they explore the content
 
