@@ -43,12 +43,12 @@
       </ul>
     </li>
     <li>
-      <a href="#intel-toolkit">⚡ Intel OneAPI Tools</a>
+      <a href="#-intel-oneapi-tools">⚡ Intel OneAPI Tools</a>
     </li>
-    <li><a href="#our-outputs">🛸 Outputs</a></li>
-    <li><a href="#our-project-status">🚧 Project Status</a></li>
-    <li><a href="#built-with">🛠️ Tech Stack</a></li>
-    <li><a href="#community">🤖 Meet us!</a></li>
+    <li><a href="#-outputs">🛸 Outputs</a></li>
+    <li><a href="#-project-status">🚧 Project Status</a></li>
+    <li><a href="#%EF%B8%8F-tech-stack">🛠️ Tech Stack</a></li>
+    <li><a href="#-join-our-community">🤖 Meet us!</a></li>
     
   </ol>
 </details>
