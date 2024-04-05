@@ -26,7 +26,7 @@
   <summary>🗂️ Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about">🐚 About Comic-ify</a>
+      <a href="#-about-comic-ify">🐚 About Comic-ify</a>
       <ul>
         <li><a href="#features">⭐️ Features</a></li>
         <li><a href="#vision">🔮 Vision</a></li>
