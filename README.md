@@ -157,9 +157,9 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
     </a>
     <br>
     <a href="https://www.youtube.com/watch?v=1xngEIozVgw">Click Here!</a>
-    <a name="get-started"></a>
   </p>
-</div>
+</div>    <a name="get-started"></a>
+
 
 
 
@@ -215,9 +215,9 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 
 <div align="center">
   <img src="https://github.com/SrikarVamsi/dump/raw/main/oneAPI.jpg" alt="oneAPI Image" width="500">
-  <p><bold>By leveraging the power of Intel® oneAPI libraries and frameworks, our models achieve remarkable performance enhancements and optimized memory utilization across various applications. The seamless integration of different components contributes to faster fine-tuning, efficient inference, and an improved overall user experience.</bold></p><a name="#outputs"></a>
+  <p><bold>By leveraging the power of Intel® oneAPI libraries and frameworks, our models achieve remarkable performance enhancements and optimized memory utilization across various applications. The seamless integration of different components contributes to faster fine-tuning, efficient inference, and an improved overall user experience.</bold></p>
 
-</div>
+</div> <a name="#outputs"></a>
 
 ## 🛸 Outputs
 Different explaination styles
