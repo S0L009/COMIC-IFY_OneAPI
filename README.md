@@ -43,10 +43,10 @@
       </ul>
     </li>
     <li>
-      <a href="#intel">⚡ Intel OneAPI Tools</a>
+      <a href="#intel-toolkits">⚡ Intel OneAPI Tools</a>
     </li>
-    <li><a href="#outputs">🛸 Outputs</a></li>
-    <li><a href="#project-status">🚧 Project Status</a></li>
+    <li><a href="#our-outputs">🛸 Outputs</a></li>
+    <li><a href="#our-project-status">🚧 Project Status</a></li>
     <li><a href="#built-with">🛠️ Tech Stack</a></li>
     <li><a href="#community">🤖 Meet us!</a></li>
     
@@ -190,7 +190,7 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 
 <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/swagger.jpg" alt="swagger_ui_ss">
 
-<a name="#intel"></a>
+<a name="#intel-toolkit"></a>
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
@@ -207,17 +207,19 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 | 2 | Intel® OpenVINO™ | We are making the process of implementing Q-LoRA faster using OpenVINO | 
 | 3 | Intel® DevCloud | DevCloud offers a valuable environment for our project |
 
+
+<div align="center">
+  <img src="https://github.com/SrikarVamsi/dump/raw/main/oneAPI.jpg" alt="oneAPI Image" width="500">
+  <p><bold>By leveraging the power of Intel® oneAPI libraries and frameworks, our models achieve remarkable performance enhancements and optimized memory utilization across various applications. The seamless integration of different components contributes to faster fine-tuning, efficient inference, and an improved overall user experience.</bold></p>
+
+</div> <a name="#our-outputs"></a>
+
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
         ↑ Back to Top ↑
     </a>
 </p>
 
-<div align="center">
-  <img src="https://github.com/SrikarVamsi/dump/raw/main/oneAPI.jpg" alt="oneAPI Image" width="500">
-  <p><bold>By leveraging the power of Intel® oneAPI libraries and frameworks, our models achieve remarkable performance enhancements and optimized memory utilization across various applications. The seamless integration of different components contributes to faster fine-tuning, efficient inference, and an improved overall user experience.</bold></p>
-
-</div> <a name="#outputs"></a>
 
 ## 🛸 Outputs
 Different explaination styles
@@ -258,7 +260,7 @@ Different explaination styles
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/385a57071362a5a5f5db5ed7fb82612d5f96ff89/images/2480%20x%203508%20(5).png" alt="Splash">
 </p>
 
-<a name="#project-status"></a>
+<a name="#our-project-status"></a>
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
