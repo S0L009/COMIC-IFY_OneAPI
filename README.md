@@ -108,6 +108,7 @@ Example: If the emphasis is on Operating Systems, users can prompt for a detaile
 
 Comic-ify is revolutionizing how we engage with information. Powered by cutting-edge LLM-based models, our tool effortlessly converts dense PDFs into visually engaging comic-style content. Say goodbye to tedious paragraphs and hello to an immersive experience where information comes to life! Why Comic-ify? Because we believe knowledge should be accessible and enjoyable. With Comic-ify, understanding content becomes effortless, and the process becomes a pleasure. It's a win-win for all.
 
+<a name="workflow"></a>
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
@@ -116,7 +117,7 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
 </p>
 
 
-<a name="workflow"></a>
+
 ## 🌈 Workflow Diagram
 
 <p align="center">
@@ -156,6 +157,7 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
     </a>
     <br>
     <a href="https://www.youtube.com/watch?v=1xngEIozVgw">Click Here!</a>
+    <a name="get-started"></a>
   </p>
 </div>
 
@@ -163,7 +165,6 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
 
 
 
-<a name="get-started"></a>
 ## 🚀 Get Started
 
 ### 1. Build and Setup
@@ -189,6 +190,8 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 
 <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/swagger.jpg" alt="swagger_ui_ss">
 
+<a name="#intel"></a>
+
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
         ↑ Back to Top ↑
@@ -196,7 +199,6 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 </p>
 
 
-<a name="#intel"></a>
 ## ⚡ Intel OneAPI Tools
 ## Intel Tool-Kits Used
 | **Sno** | **Intel Product Used** | **Description** | 
@@ -213,10 +215,10 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 
 <div align="center">
   <img src="https://github.com/SrikarVamsi/dump/raw/main/oneAPI.jpg" alt="oneAPI Image" width="500">
-  <p><bold>By leveraging the power of Intel® oneAPI libraries and frameworks, our models achieve remarkable performance enhancements and optimized memory utilization across various applications. The seamless integration of different components contributes to faster fine-tuning, efficient inference, and an improved overall user experience.</bold></p>
+  <p><bold>By leveraging the power of Intel® oneAPI libraries and frameworks, our models achieve remarkable performance enhancements and optimized memory utilization across various applications. The seamless integration of different components contributes to faster fine-tuning, efficient inference, and an improved overall user experience.</bold></p><a name="#outputs"></a>
+
 </div>
 
-<a name="#outputs"></a>
 ## 🛸 Outputs
 Different explaination styles
 - **Get your feet wet**: This option, gives a short introductory summary of the PDF that the user has given.
@@ -256,6 +258,7 @@ Different explaination styles
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/385a57071362a5a5f5db5ed7fb82612d5f96ff89/images/2480%20x%203508%20(5).png" alt="Splash">
 </p>
 
+<a name="#project-status"></a>
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
@@ -264,7 +267,6 @@ Different explaination styles
 </p>
 
 
-<a name="#project-status"></a>
 ## 🚧 Project Status
 Comicify is currently under active development, but you can already experience its early capabilities by running the alpha version. Our dedicated team is diligently working on achieving the following key milestones:
 
@@ -278,6 +280,7 @@ Comicify is currently under active development, but you can already experience i
 
 As we continue to evolve Comicify, our goal remains clear: to revolutionize the way people consume and interact with information by making content fun, engaging, and visually appealing. 
 
+<a name="#tech-stack"></a>
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
@@ -285,7 +288,6 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
     </a>
 </p>
 
-<a name="#tech-stack"></a>
 ## 🛠️ Tech Stack
 
 *Languages and Frameworks*
@@ -307,13 +309,14 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
 | ![Image Manipulation](https://img.shields.io/badge/Image_Manipulation-experimental-orange) | ![Langchain](https://img.shields.io/badge/Langchain-experimental-orange) | |
 |:---:|:---:|:---:|
 
+<a name="#what-we-learned"></a>
+
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
         ↑ Back to Top ↑
     </a>
 </p>
 
-<a name="#what-we-learned"></a>
 ## 🥳 What we learned 
 
 ![banner](./images/Intel-AI-Kit-Banner.png)
@@ -324,13 +327,14 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
 
 ✅ **Fostered Collaboration**: Our journey involved collaboration with experts in deep learning and data analysis, highlighting the importance of teamwork in achieving our shared goals.
 
+<a name="#community"></a>
+
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
         ↑ Back to Top ↑
     </a>
 </p>
 
-<a name="#community"></a>
 ## 🤖 Join Our Community
 
 <p align="center">
