@@ -28,8 +28,8 @@
     <li>
       <a href="#about">🐚 About Comic-ify</a>
       <ul>
-        <li><a href="#features">⭐️ Features</a></li>
-        <li><a href="#vision">🔮 Vision</a></li>
+        <li><a href="#about">⭐️ Features</a></li>
+        <li><a href="#about">🔮 Vision</a></li>
       </ul>
     </li>
     <li>
@@ -38,8 +38,8 @@
     <li>
       <a href="#get-started">🚀 Get Started</a>
       <ul>
-        <li><a href="#1-build-and-setup">1. Build and Setup</a></li>
-        <li><a href="#2-run-the-application">2. Running FastAPI</a></li>
+        <li><a href="#get-started">1. Build and Setup</a></li>
+        <li><a href="#get-started">2. Running FastAPI</a></li>
       </ul>
     </li>
     <li>
