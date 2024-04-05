@@ -71,7 +71,9 @@ Comic-ify is not just another tool. It's a revolution in how we consume informat
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamlyYWRhZnJucGF4ejM1Y2Z4Mmg2NmtvZTBmaWRiZGg2Y25rcW13NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F2gwWo2vLgRMhjLFs0/giphy.gif" alt="W2W">
-</p>
+</p> 
+
+<a name="features"></a>
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
@@ -80,7 +82,7 @@ Comic-ify is not just another tool. It's a revolution in how we consume informat
 </p>
 
 
-<a name="features"></a>
+
 ## ⭐️ Features
 Lexicon, our fine-tuned model is employed to generate imaginative text and produce images inspired by the text. captivating readers as they explore the content
 
@@ -93,13 +95,15 @@ Users can choose predefined themes. For example, in the 'Indian Mythology' theme
 - **Highlight User’s Prefered topics**
 Example: If the emphasis is on Operating Systems, users can prompt for a detailed explanation of how system calls work, directing the explanation accordingly.
 
+<a name="vision"></a>
+
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
         ↑ Back to Top ↑
     </a>
 </p>
 
-<a name="vision"></a>
+
 ## 🔮 Vision: Transforming Content Consumption
 
 Comic-ify is revolutionizing how we engage with information. Powered by cutting-edge LLM-based models, our tool effortlessly converts dense PDFs into visually engaging comic-style content. Say goodbye to tedious paragraphs and hello to an immersive experience where information comes to life! Why Comic-ify? Because we believe knowledge should be accessible and enjoyable. With Comic-ify, understanding content becomes effortless, and the process becomes a pleasure. It's a win-win for all.
