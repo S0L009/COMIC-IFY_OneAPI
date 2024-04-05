@@ -59,14 +59,14 @@
 
 [Project Demo Video](https://github.com/S0L009/COMIC-IFY_OneAPI/assets/121689231/530288cc-1c34-49cd-b62e-da7d25921d5f)
 
-Welcome to Comic-ify, a revolutionary application fueled by cutting-edge LLM-based technology. Simply upload your mundane PDF, and prepare to be dazzled as it metamorphoses into a visually stunning comic-style masterpiece! Say goodbye to drowning in endless paragraphs and hello to a world where information leaps off the page, guiding you to your rightful destination in the most captivating way possible! Get ready to redefine your reading experience – Comic-ify is here to elevate it to unprecedented heights!
+Welcome to Comic-ify, a revolutionary application fueled by cutting-edge LLM-based technology. Simply upload your mundane PDF, and prepare to be dazzled as it metamorphoses into a visually stunning comic-style masterpiece! Say goodbye to drowning in endless paragraphs and hello to a world where information leaps off the page, guiding you to your rightful destination in the most captivating way possible! Get ready to redefine your reading experience – Comic-ify is here to elevate it to unprecedented heights! <a name="about"></a>
+
 
 
 
 
 
 ## 🐚 About Comic-ify
-<a name="about"></a>
 Comic-ify is not just another tool. It's a revolution in how we consume information. Imagine this: you have a stack of boring PDFs, full of dense text that drains your energy just thinking about it. We've all been there. But fear not! Comic-ify is here to transform your reading experience. Let's face it, deciphering pages of dull, overwhelming text is like trying to climb a mountain without a rope. It's tough, it's exhausting, and frankly, it's no fun at all. We've experienced this struggle since our early days, constantly grappling with the challenge of making tedious content engaging.
 
 <p align="center">
