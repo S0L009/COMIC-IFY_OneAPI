@@ -99,19 +99,19 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
   <img src="https://github.com/SrikarVamsi/dump/blob/main/Comicify-PPT.png?raw=true" alt="workflow">
 </p>
 
+
+## 👩🏻‍💼 The Userflow
+
+<p align="center">
+  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/9f02ab3d93a19f536c5ccbbdbbca205a2efdc546/images/Comicify-User-flow.png" alt="workflow">
+</p>
+
 **✨ Dataset: We have pushed our data and model to HuggingFace, however it is currently made private.**
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=1xngEIozVgw)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/Macromrit/Comicify-Heading-Generation)
 [![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1u6DDqnxUgWTlgHAeIW7bdt0CnYkCX6fT?usp=sharing)
 
-
-
-##👩🏻‍💼 Userflow Diagram
-
-<p align="center">
-  <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/9f02ab3d93a19f536c5ccbbdbbca205a2efdc546/images/Comicify-User-flow.png" alt="workflow">
-</p>
 
 
  ## **Check Out Our Video**
