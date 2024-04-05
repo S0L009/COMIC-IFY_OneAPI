@@ -43,7 +43,7 @@
       </ul>
     </li>
     <li>
-      <a href="#intel-toolkits">⚡ Intel OneAPI Tools</a>
+      <a href="#intel-toolkit">⚡ Intel OneAPI Tools</a>
     </li>
     <li><a href="#our-outputs">🛸 Outputs</a></li>
     <li><a href="#our-project-status">🚧 Project Status</a></li>
