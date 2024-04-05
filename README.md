@@ -72,11 +72,15 @@ Comic-ify is not just another tool. It's a revolution in how we consume informat
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamlyYWRhZnJucGF4ejM1Y2Z4Mmg2NmtvZTBmaWRiZGg2Y25rcW13NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F2gwWo2vLgRMhjLFs0/giphy.gif" alt="W2W">
 </p>
+
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
         ↑ Back to Top ↑
     </a>
 </p>
+
+
+<a name="features"></a>
 ## ⭐️ Features
 Lexicon, our fine-tuned model is employed to generate imaginative text and produce images inspired by the text. captivating readers as they explore the content
 
@@ -89,14 +93,26 @@ Users can choose predefined themes. For example, in the 'Indian Mythology' theme
 - **Highlight User’s Prefered topics**
 Example: If the emphasis is on Operating Systems, users can prompt for a detailed explanation of how system calls work, directing the explanation accordingly.
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
 
-
+<a name="vision"></a>
 ## 🔮 Vision: Transforming Content Consumption
 
 Comic-ify is revolutionizing how we engage with information. Powered by cutting-edge LLM-based models, our tool effortlessly converts dense PDFs into visually engaging comic-style content. Say goodbye to tedious paragraphs and hello to an immersive experience where information comes to life! Why Comic-ify? Because we believe knowledge should be accessible and enjoyable. With Comic-ify, understanding content becomes effortless, and the process becomes a pleasure. It's a win-win for all.
 
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
 
+
+<a name="workflow"></a>
 ## 🌈 Workflow Diagram
 
 <p align="center">
@@ -108,6 +124,12 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
 
 <p align="center">
   <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/9f02ab3d93a19f536c5ccbbdbbca205a2efdc546/images/Comicify-User-flow.png" alt="workflow">
+</p>
+
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
 </p>
 
 **✨ Dataset: We have pushed our data and model to HuggingFace, however it is currently made private.**
@@ -137,7 +159,7 @@ Comic-ify is revolutionizing how we engage with information. Powered by cutting-
 
 
 
-
+<a name="get-started"></a>
 ## 🚀 Get Started
 
 ### 1. Build and Setup
@@ -163,6 +185,14 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 
 <img src="https://github.com/S0L009/COMIC-IFY_OneAPI/blob/main/images/swagger.jpg" alt="swagger_ui_ss">
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
+
+
+<a name="#intel"></a>
 ## ⚡ Intel OneAPI Tools
 ## Intel Tool-Kits Used
 | **Sno** | **Intel Product Used** | **Description** | 
@@ -171,12 +201,18 @@ Step4: Test the APIs on Swagger-UI (your app should look like this)
 | 2 | Intel® OpenVINO™ | We are making the process of implementing Q-LoRA faster using OpenVINO | 
 | 3 | Intel® DevCloud | DevCloud offers a valuable environment for our project |
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
+
 <div align="center">
   <img src="https://github.com/SrikarVamsi/dump/raw/main/oneAPI.jpg" alt="oneAPI Image" width="500">
   <p><bold>By leveraging the power of Intel® oneAPI libraries and frameworks, our models achieve remarkable performance enhancements and optimized memory utilization across various applications. The seamless integration of different components contributes to faster fine-tuning, efficient inference, and an improved overall user experience.</bold></p>
 </div>
 
-
+<a name="#outputs"></a>
 ## 🛸 Outputs
 Different explaination styles
 - **Get your feet wet**: This option, gives a short introductory summary of the PDF that the user has given.
@@ -217,9 +253,14 @@ Different explaination styles
 </p>
 
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
 
 
-
+<a name="#project-status"></a>
 ## 🚧 Project Status
 Comicify is currently under active development, but you can already experience its early capabilities by running the alpha version. Our dedicated team is diligently working on achieving the following key milestones:
 
@@ -234,7 +275,13 @@ Comicify is currently under active development, but you can already experience i
 As we continue to evolve Comicify, our goal remains clear: to revolutionize the way people consume and interact with information by making content fun, engaging, and visually appealing. 
 
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
 
+<a name="#tech-stack"></a>
 ## 🛠️ Tech Stack
 
 *Languages and Frameworks*
@@ -256,7 +303,13 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
 | ![Image Manipulation](https://img.shields.io/badge/Image_Manipulation-experimental-orange) | ![Langchain](https://img.shields.io/badge/Langchain-experimental-orange) | |
 |:---:|:---:|:---:|
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
 
+<a name="#what-we-learned"></a>
 ## 🥳 What we learned 
 
 ![banner](./images/Intel-AI-Kit-Banner.png)
@@ -267,6 +320,13 @@ As we continue to evolve Comicify, our goal remains clear: to revolutionize the 
 
 ✅ **Fostered Collaboration**: Our journey involved collaboration with experts in deep learning and data analysis, highlighting the importance of teamwork in achieving our shared goals.
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
+
+<a name="#community"></a>
 ## 🤖 Join Our Community
 
 <p align="center">
@@ -327,6 +387,12 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
      </a>
    </p>
 
+
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
 
 
 ## Contributing to Comic-ify
