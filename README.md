@@ -28,8 +28,8 @@
     <li>
       <a href="#about">🐚 About Comic-ify</a>
       <ul>
-        <li><a href="#about">⭐️ Features</a></li>
-        <li><a href="#about">🔮 Vision</a></li>
+        <li><a href="#features">⭐️ Features</a></li>
+        <li><a href="#vision">🔮 Vision</a></li>
       </ul>
     </li>
     <li>
