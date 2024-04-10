@@ -399,11 +399,18 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
    </p>
 
 
+<div align="center">
+
+In our journey, we were fortunate to have the support of numerous individuals who lent their expertise and encouragement. Special thanks to **Kavya Sakthivel**, **Premjith Sir**, and **Dilip Parasu** for their active support throughout the process. Your contributions were invaluable to our success.
+
+</div>
+
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
         ↑ Back to Top ↑
     </a>
 </p>
+
 
 
 ## Contributing to Comic-ify
