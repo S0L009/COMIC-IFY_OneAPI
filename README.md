@@ -401,7 +401,7 @@ Meet the talented minds behind Comic-ify, all hailing from Amrita Vishwa Vidyape
 
 <div align="center">
 
-In our journey, we were fortunate to have the support of numerous individuals who lent their expertise and encouragement. Special thanks to **Kavya Sakthivel**, **Premjith Sir**, and **Dilip Parasu** for their active support throughout the process. Your contributions were invaluable to our success.
+In our journey, we were fortunate to have the support of numerous individuals who lent their expertise and encouragement. Special thanks to **Kavya Sakthivel**, **Premjith Sir**, **Dilip Parasu**, **Pratiti Bhadra mam** and **Vipin Das sir** for their active support throughout the process. Your contributions were invaluable to our success.
 
 </div>
 
